@@ -1,0 +1,66 @@
+2021-12-04T22:39:18+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_trim_words() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php:118
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/class-wp-widget.php(393): WPRT_recent_news->widget(Array, Array)
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/widgets.php(831): WP_Widget->display_callback(Array, Array)
+#2 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/sidebar.php(34): dynamic_sidebar('sidebar_default')
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(770): require_once('/Users/danielcr...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(716): load_template('/Users/danielcr...', true, Array)
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/general-template.php(136): locate_template(Array, true, true, Array)
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/index.php(53): get_sidebar()
+#7 /Users/danielcruz/Desktop/fertifor-wp/wp-in, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php, na linha 118
+
+2021-12-04T22:39:23+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_trim_words() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php:118
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/class-wp-widget.php(393): WPRT_recent_news->widget(Array, Array)
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/widgets.php(831): WP_Widget->display_callback(Array, Array)
+#2 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/sidebar.php(34): dynamic_sidebar('sidebar_default')
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(770): require_once('/Users/danielcr...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(716): load_template('/Users/danielcr...', true, Array)
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/general-template.php(136): locate_template(Array, true, true, Array)
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/index.php(53): get_sidebar()
+#7 /Users/danielcruz/Desktop/fertifor-wp/wp-in, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php, na linha 118
+
+2021-12-04T22:44:55+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_trim_words() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php:118
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/class-wp-widget.php(393): WPRT_recent_news->widget(Array, Array)
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/widgets.php(831): WP_Widget->display_callback(Array, Array)
+#2 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/sidebar.php(34): dynamic_sidebar('sidebar_default')
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(770): require_once('/Users/danielcr...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(716): load_template('/Users/danielcr...', true, Array)
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/general-template.php(136): locate_template(Array, true, true, Array)
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/index.php(53): get_sidebar()
+#7 /Users/danielcruz/Desktop/fertifor-wp/wp-in, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php, na linha 118
+
+2021-12-04T22:45:09+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_trim_words() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php:118
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/class-wp-widget.php(393): WPRT_recent_news->widget(Array, Array)
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/widgets.php(831): WP_Widget->display_callback(Array, Array)
+#2 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/sidebar.php(34): dynamic_sidebar('sidebar_default')
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(770): require_once('/Users/danielcr...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(716): load_template('/Users/danielcr...', true, Array)
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/general-template.php(136): locate_template(Array, true, true, Array)
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/index.php(53): get_sidebar()
+#7 /Users/danielcruz/Desktop/fertifor-wp/wp-in, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php, na linha 118
+
+2021-12-04T22:45:35+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_trim_words() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php:118
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/class-wp-widget.php(393): WPRT_recent_news->widget(Array, Array)
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/widgets.php(831): WP_Widget->display_callback(Array, Array)
+#2 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/sidebar.php(34): dynamic_sidebar('sidebar_default')
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(770): require_once('/Users/danielcr...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(716): load_template('/Users/danielcr...', true, Array)
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/general-template.php(136): locate_template(Array, true, true, Array)
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/index.php(53): get_sidebar()
+#7 /Users/danielcruz/Desktop/fertifor-wp/wp-in, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php, na linha 118
+
+2021-12-04T22:52:54+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_trim_words() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php:118
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/class-wp-widget.php(393): WPRT_recent_news->widget(Array, Array)
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/widgets.php(831): WP_Widget->display_callback(Array, Array)
+#2 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/sidebar.php(34): dynamic_sidebar('sidebar_default')
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(770): require_once('/Users/danielcr...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/template.php(716): load_template('/Users/danielcr...', true, Array)
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/general-template.php(136): locate_template(Array, true, true, Array)
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/themes/econature/index.php(53): get_sidebar()
+#7 /Users/danielcruz/Desktop/fertifor-wp/wp-in, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/widgets/recentposts.php, na linha 118
+

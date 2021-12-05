@@ -1,0 +1,90 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://localhost:8888
+Data file = /Users/danielcruz/Desktop/fertifor-wp/wp-content/uploads/2021/12/demo-content-import-file_2021-12-04__21-36-11.xml
+Widget file = /Users/danielcruz/Desktop/fertifor-wp/wp-content/uploads/2021/12/demo-widgets-import-file_2021-12-04__21-36-11.json
+Customizer file = /Users/danielcruz/Desktop/fertifor-wp/wp-content/uploads/2021/12/demo-customizer-import-file_2021-12-04__21-36-11.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar Blog : 
+
+Pesquisar - No Title - Imported
+Recent Posts Advanced - Recent Posts - Imported
+Nuvem de tags - No Title - Imported
+Categorias - No Title - Imported
+Socials - Follow Us - Imported
+
+Sidebar Footer 1 : 
+
+Texto - ABOUT - Imported
+Mailchimp Sign-Up Form - No Title - Imported
+
+Sidebar Footer 2 : 
+
+Links - EXPLORE - Imported
+
+Sidebar Footer 3 : 
+
+Recent Posts Advanced - Recent Posts - Imported
+
+Sidebar Footer 4 : 
+
+Texto - CONTACT - Imported
+Socials - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

@@ -1,0 +1,4134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CMSMasters Content Composer 1.4.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-20 17:36+0300\n"
+"PO-Revision-Date: 2021-10-20 17:37+0300\n"
+"Last-Translator: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language-Team: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;translate_nooped_plural;_n:1,2;_n_noop:1,2;"
+"_nx:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.css\n"
+
+#: cmsms-content-composer.php:146 cmsms-content-composer.php:208
+#: inc/profile/profiles-post-type.php:108 inc/shortcodes.php:776
+#: inc/shortcodes.php:902 inc/shortcodes.php:1082 inc/widgets.php:144
+#: inc/widgets.php:362 inc/widgets.php:444 inc/widgets.php:519
+#: inc/widgets.php:645 inc/widgets.php:802
+msgid "Title"
+msgstr ""
+
+#: cmsms-content-composer.php:147 cmsms-content-composer.php:262
+#: cmsms-content-composer.php:494
+msgid "Content"
+msgstr ""
+
+#: cmsms-content-composer.php:148
+msgid "Icon"
+msgstr ""
+
+#: cmsms-content-composer.php:149
+msgid "Size"
+msgstr ""
+
+#: cmsms-content-composer.php:150
+msgid "Button"
+msgstr ""
+
+#: cmsms-content-composer.php:151 inc/widgets.php:154 inc/widgets.php:164
+#: inc/widgets.php:174 inc/widgets.php:184 inc/widgets.php:194
+#: inc/widgets.php:204
+msgid "Link"
+msgstr ""
+
+#: cmsms-content-composer.php:152
+msgid "Color"
+msgstr ""
+
+#: cmsms-content-composer.php:153
+msgid "Mode"
+msgstr ""
+
+#: cmsms-content-composer.php:154 inc/shortcodes.php:1930
+#: inc/shortcodes.php:3743
+msgid "Name"
+msgstr ""
+
+#: cmsms-content-composer.php:155
+msgid "Order By"
+msgstr ""
+
+#: cmsms-content-composer.php:156 inc/profile/profiles-post-type.php:112
+#: inc/project/projects-post-type.php:135
+msgid "Order"
+msgstr ""
+
+#: cmsms-content-composer.php:157
+msgid ""
+"Designates the ascending or descending order of the 'order by' parameter"
+msgstr ""
+
+#: cmsms-content-composer.php:158 cmsms-content-composer.php:203
+#: inc/profile/profiles-post-type.php:110
+#: inc/project/projects-post-type.php:131
+msgid "Categories"
+msgstr ""
+
+#: cmsms-content-composer.php:159
+msgid "Layout"
+msgstr ""
+
+#: cmsms-content-composer.php:160
+msgid "click here"
+msgstr ""
+
+#: cmsms-content-composer.php:161
+msgid "for more information"
+msgstr ""
+
+#: cmsms-content-composer.php:162
+msgid "Columns Count"
+msgstr ""
+
+#: cmsms-content-composer.php:163
+msgid "number"
+msgstr ""
+
+#: cmsms-content-composer.php:164
+msgid "(0 if empty)"
+msgstr ""
+
+#: cmsms-content-composer.php:165
+msgid "If empty, default color scheme will be applied"
+msgstr ""
+
+#: cmsms-content-composer.php:166
+msgid "Note:"
+msgstr ""
+
+#: cmsms-content-composer.php:167
+msgid "Click here to change this text"
+msgstr ""
+
+#: cmsms-content-composer.php:168
+msgid "number, in pixels (default value if empty or 0)"
+msgstr ""
+
+#: cmsms-content-composer.php:169
+msgid "Text Align"
+msgstr ""
+
+#: cmsms-content-composer.php:170
+msgid "Open link in a SAME tab/window"
+msgstr ""
+
+#: cmsms-content-composer.php:171
+msgid "Open link in a NEW tab/window"
+msgstr ""
+
+#: cmsms-content-composer.php:172
+msgid "number, in pixels (default value if empty)"
+msgstr ""
+
+#: cmsms-content-composer.php:173 cmsms-content-composer.php:1259
+msgid "Enter your link here"
+msgstr ""
+
+#: cmsms-content-composer.php:174
+msgid "number, percentage (default value if empty)"
+msgstr ""
+
+#: cmsms-content-composer.php:175
+msgid "number, in pixels"
+msgstr ""
+
+#: cmsms-content-composer.php:177
+msgid "You can set any border radius rule here."
+msgstr ""
+
+#: cmsms-content-composer.php:178
+msgid "For creating correct rule please use"
+msgstr ""
+
+#: cmsms-content-composer.php:179 cmsms-content-composer.php:376
+msgid "border radius generator"
+msgstr ""
+
+#: cmsms-content-composer.php:180
+msgid "But copy only value of the first rule, for example like"
+msgstr ""
+
+#: cmsms-content-composer.php:181 cmsms-content-composer.php:378
+msgid "on this screenshot"
+msgstr ""
+
+#: cmsms-content-composer.php:187
+msgid "Default"
+msgstr ""
+
+#: cmsms-content-composer.php:188
+msgid "Left"
+msgstr ""
+
+#: cmsms-content-composer.php:189
+msgid "Center"
+msgstr ""
+
+#: cmsms-content-composer.php:190
+msgid "Right"
+msgstr ""
+
+#: cmsms-content-composer.php:191
+msgid "Enable"
+msgstr ""
+
+#: cmsms-content-composer.php:192
+msgid "Block"
+msgstr ""
+
+#: cmsms-content-composer.php:193
+msgid "Inline"
+msgstr ""
+
+#: cmsms-content-composer.php:194
+msgid "Inline-Block"
+msgstr ""
+
+#: cmsms-content-composer.php:195
+msgid "Show"
+msgstr ""
+
+#: cmsms-content-composer.php:196 inc/project/projects-post-type.php:133
+#: inc/shortcodes.php:3745
+msgid "Date"
+msgstr ""
+
+#: cmsms-content-composer.php:197
+msgid "ID"
+msgstr ""
+
+#: cmsms-content-composer.php:198
+msgid "Menu Order"
+msgstr ""
+
+#: cmsms-content-composer.php:199
+msgid "Popular"
+msgstr ""
+
+#: cmsms-content-composer.php:200
+msgid "Random"
+msgstr ""
+
+#: cmsms-content-composer.php:201
+msgid "ASC"
+msgstr ""
+
+#: cmsms-content-composer.php:202
+msgid "DESC"
+msgstr ""
+
+#: cmsms-content-composer.php:204 inc/profile/profiles-post-type.php:111
+#: inc/project/projects-post-type.php:134
+msgid "Comments"
+msgstr ""
+
+#: cmsms-content-composer.php:205 inc/like/likes-post-type.php:16
+msgid "Likes"
+msgstr ""
+
+#: cmsms-content-composer.php:206
+msgid "Author"
+msgstr ""
+
+#: cmsms-content-composer.php:207 inc/project/projects-post-type.php:132
+msgid "Tags"
+msgstr ""
+
+#: cmsms-content-composer.php:209
+msgid "Excerpt"
+msgstr ""
+
+#: cmsms-content-composer.php:210
+msgid "Image Rollover"
+msgstr ""
+
+#: cmsms-content-composer.php:211
+msgid "'Read More' button"
+msgstr ""
+
+#: cmsms-content-composer.php:212
+msgid "Vertical"
+msgstr ""
+
+#: cmsms-content-composer.php:213
+msgid "Horizontal"
+msgstr ""
+
+#: cmsms-content-composer.php:214
+msgid "Left side"
+msgstr ""
+
+#: cmsms-content-composer.php:215
+msgid "Right side"
+msgstr ""
+
+#: cmsms-content-composer.php:216
+msgid "Choose icon for your button"
+msgstr ""
+
+#: cmsms-content-composer.php:219
+msgid "Animation"
+msgstr ""
+
+#: cmsms-content-composer.php:220
+msgid ""
+"Shortcode animation effect when a user scrolls to its position for the first "
+"time."
+msgstr ""
+
+#: cmsms-content-composer.php:221
+msgid "This option works only in modern browsers"
+msgstr ""
+
+#: cmsms-content-composer.php:222
+msgid "Animation Delay"
+msgstr ""
+
+#: cmsms-content-composer.php:223
+msgid "Delay before shortcode animation starts"
+msgstr ""
+
+#: cmsms-content-composer.php:224
+msgid "number, in milliseconds (1 second = 1000 milliseconds)"
+msgstr ""
+
+#: cmsms-content-composer.php:227
+msgid "Additional Classes"
+msgstr ""
+
+#: cmsms-content-composer.php:228
+msgid ""
+"You can add additional CSS classes (separated by spaces) to the shortcode, "
+"if you wish to style content elements differently"
+msgstr ""
+
+#: cmsms-content-composer.php:231 inc/shortcodes.php:3468
+#: inc/shortcodes.php:3739
+msgid "Filter"
+msgstr ""
+
+#: cmsms-content-composer.php:232
+msgid "Filter Button Text"
+msgstr ""
+
+#: cmsms-content-composer.php:233
+msgid "Enter filter button custom title"
+msgstr ""
+
+#: cmsms-content-composer.php:234
+msgid "if empty, default filter button title will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:235
+msgid "This option works only if filter enabled"
+msgstr ""
+
+#: cmsms-content-composer.php:236
+msgid "Filter 'All Categories' Text"
+msgstr ""
+
+#: cmsms-content-composer.php:237
+msgid "Enter filter 'All Categories' custom text"
+msgstr ""
+
+#: cmsms-content-composer.php:238
+msgid "if empty, default filter 'All Categories' text will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:239
+msgid "Sorting By Name Button Text"
+msgstr ""
+
+#: cmsms-content-composer.php:240
+msgid "Enter sorting by name button custom title"
+msgstr ""
+
+#: cmsms-content-composer.php:241
+msgid "if empty, default sorting by name button title will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:242
+msgid "Sorting By Date Button Text"
+msgstr ""
+
+#: cmsms-content-composer.php:243
+msgid "Enter sorting by date button custom title"
+msgstr ""
+
+#: cmsms-content-composer.php:244
+msgid "if empty, default sorting by date button title will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:245
+msgid "This option works only if sorting enabled"
+msgstr ""
+
+#: cmsms-content-composer.php:246 cmsms-content-composer.php:249
+msgid "Pagination"
+msgstr ""
+
+#: cmsms-content-composer.php:247
+msgid "'Load More' button"
+msgstr ""
+
+#: cmsms-content-composer.php:248
+msgid "Disable additional posts"
+msgstr ""
+
+#: cmsms-content-composer.php:250
+msgid "Choose your method of viewing additional posts"
+msgstr ""
+
+#: cmsms-content-composer.php:251
+msgid "'Load More' Button Text"
+msgstr ""
+
+#: cmsms-content-composer.php:252
+msgid "Enter 'Load More' button custom title"
+msgstr ""
+
+#: cmsms-content-composer.php:253
+msgid "if empty, default 'Load More' button title will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:261
+msgid "Text Block"
+msgstr ""
+
+#: cmsms-content-composer.php:269
+msgid "Heading"
+msgstr ""
+
+#: cmsms-content-composer.php:270
+msgid "Heading Text"
+msgstr ""
+
+#: cmsms-content-composer.php:271 cmsms-content-composer.php:1248
+msgid "Enter your special heading text"
+msgstr ""
+
+#: cmsms-content-composer.php:272
+msgid "Heading Type"
+msgstr ""
+
+#: cmsms-content-composer.php:273
+msgid "Choose type of your heading tag"
+msgstr ""
+
+#: cmsms-content-composer.php:274
+msgid "Google Font"
+msgstr ""
+
+#: cmsms-content-composer.php:275
+msgid "Choose Google font for your custom heading"
+msgstr ""
+
+#: cmsms-content-composer.php:276
+msgid "Font Size"
+msgstr ""
+
+#: cmsms-content-composer.php:277
+msgid "Enter font size for your custom heading"
+msgstr ""
+
+#: cmsms-content-composer.php:278
+msgid "Line Height"
+msgstr ""
+
+#: cmsms-content-composer.php:279
+msgid "Enter line height for your custom heading"
+msgstr ""
+
+#: cmsms-content-composer.php:280
+msgid "Font Weight"
+msgstr ""
+
+#: cmsms-content-composer.php:281
+msgid "Choose font weight for your custom heading"
+msgstr ""
+
+#: cmsms-content-composer.php:282
+msgid "Font Style"
+msgstr ""
+
+#: cmsms-content-composer.php:283
+msgid "Choose font style for your custom heading"
+msgstr ""
+
+#: cmsms-content-composer.php:284
+msgid "Choose text align for your custom heading"
+msgstr ""
+
+#: cmsms-content-composer.php:285
+msgid "Heading Link"
+msgstr ""
+
+#: cmsms-content-composer.php:286
+msgid "Enter heading link here"
+msgstr ""
+
+#: cmsms-content-composer.php:287
+msgid "Heading Link Target"
+msgstr ""
+
+#: cmsms-content-composer.php:288
+msgid "Choose heading link target type"
+msgstr ""
+
+#: cmsms-content-composer.php:289
+msgid "Custom Heading Color"
+msgstr ""
+
+#: cmsms-content-composer.php:290
+msgid "If not checked, heading will use color of parent section color scheme"
+msgstr ""
+
+#: cmsms-content-composer.php:291
+msgid "Heading Color"
+msgstr ""
+
+#: cmsms-content-composer.php:292
+msgid "Choose your custom heading color"
+msgstr ""
+
+#: cmsms-content-composer.php:293
+msgid "Heading Color Transparency"
+msgstr ""
+
+#: cmsms-content-composer.php:294
+msgid "Choose your custom heading color transparency"
+msgstr ""
+
+#: cmsms-content-composer.php:295 cmsms-content-composer.php:466
+msgid "Top Margin"
+msgstr ""
+
+#: cmsms-content-composer.php:296
+msgid "Enter your custom heading top margin"
+msgstr ""
+
+#: cmsms-content-composer.php:297 cmsms-content-composer.php:468
+msgid "Bottom Margin"
+msgstr ""
+
+#: cmsms-content-composer.php:298
+msgid "Enter your custom heading bottom margin"
+msgstr ""
+
+#: cmsms-content-composer.php:305 cmsms-content-composer.php:1354
+#: inc/widgets.php:650 inc/widgets.php:655 inc/widgets.php:660
+msgid "Audio"
+msgstr ""
+
+#: cmsms-content-composer.php:306
+msgid "Here you can add, edit, remove or sort audio links"
+msgstr ""
+
+#: cmsms-content-composer.php:307
+msgid ""
+"Please add audio in several formats for your shortcode to work properly in "
+"all browsers"
+msgstr ""
+
+#: cmsms-content-composer.php:308
+msgid "If checked, audio will play as soon as the audio is ready"
+msgstr ""
+
+#: cmsms-content-composer.php:309
+msgid "If checked, audio will be repeated from the beginning after finishing"
+msgstr ""
+
+#: cmsms-content-composer.php:310
+msgid "Specifies if and how the audio should be loaded when the page loads"
+msgstr ""
+
+#: cmsms-content-composer.php:311
+msgid "None - the audio should not be loaded when the page loads"
+msgstr ""
+
+#: cmsms-content-composer.php:312
+msgid "Auto - the audio should be loaded entirely when the page loads"
+msgstr ""
+
+#: cmsms-content-composer.php:313 cmsms-content-composer.php:1005
+msgid "Metadata - only metadata should be loaded when the page loads"
+msgstr ""
+
+#: cmsms-content-composer.php:319
+msgid "Blog"
+msgstr ""
+
+#: cmsms-content-composer.php:320
+msgid "Choose what parameter your posts will be ordered by"
+msgstr ""
+
+#: cmsms-content-composer.php:321
+msgid "Posts Number"
+msgstr ""
+
+#: cmsms-content-composer.php:322
+msgid "Enter the number of posts to be shown per page"
+msgstr ""
+
+#: cmsms-content-composer.php:323 cmsms-content-composer.php:802
+msgid "number, if empty - show all posts"
+msgstr ""
+
+#: cmsms-content-composer.php:324
+msgid "Show posts associated with certain categories"
+msgstr ""
+
+#: cmsms-content-composer.php:325 cmsms-content-composer.php:795
+msgid "If you don't choose any post categories, all your posts will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:326
+msgid "Choose layout type for your blog posts"
+msgstr ""
+
+#: cmsms-content-composer.php:327
+msgid "Standard"
+msgstr ""
+
+#: cmsms-content-composer.php:328
+msgid "Columns"
+msgstr ""
+
+#: cmsms-content-composer.php:329
+msgid "Timeline"
+msgstr ""
+
+#: cmsms-content-composer.php:330 cmsms-content-composer.php:764
+msgid "Layout Mode"
+msgstr ""
+
+#: cmsms-content-composer.php:331
+msgid "Choose columns layout mode for your blog posts"
+msgstr ""
+
+#: cmsms-content-composer.php:332 cmsms-content-composer.php:417
+msgid "Grid"
+msgstr ""
+
+#: cmsms-content-composer.php:333
+msgid "Masonry"
+msgstr ""
+
+#: cmsms-content-composer.php:334 cmsms-content-composer.php:799
+msgid "Choose number of posts per row"
+msgstr ""
+
+#: cmsms-content-composer.php:335
+msgid ""
+"4 columns will be shown for pages with a fullwidth layout only. For pages "
+"with a sidebar enabled, maximum columns amount is 3."
+msgstr ""
+
+#: cmsms-content-composer.php:336 cmsms-content-composer.php:771
+msgid "Metadata"
+msgstr ""
+
+#: cmsms-content-composer.php:337 cmsms-content-composer.php:809
+msgid "Choose blog posts metadata you want to be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:338
+msgid "If checked, blog posts category filter will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:345
+msgid "Show Button"
+msgstr ""
+
+#: cmsms-content-composer.php:346
+msgid "If checked, button will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:347 cmsms-content-composer.php:645
+msgid "Button Label"
+msgstr ""
+
+#: cmsms-content-composer.php:348 cmsms-content-composer.php:646
+msgid "Enter button label here"
+msgstr ""
+
+#: cmsms-content-composer.php:349 cmsms-content-composer.php:507
+#: cmsms-content-composer.php:647 cmsms-content-composer.php:1145
+msgid "Button Link"
+msgstr ""
+
+#: cmsms-content-composer.php:350 cmsms-content-composer.php:508
+#: cmsms-content-composer.php:648
+msgid "Enter button link here"
+msgstr ""
+
+#: cmsms-content-composer.php:351 cmsms-content-composer.php:509
+#: cmsms-content-composer.php:649
+msgid "Button Target"
+msgstr ""
+
+#: cmsms-content-composer.php:352
+msgid "Enter button target here"
+msgstr ""
+
+#: cmsms-content-composer.php:353 cmsms-content-composer.php:402
+msgid "Button Position"
+msgstr ""
+
+#: cmsms-content-composer.php:354 cmsms-content-composer.php:403
+msgid "Choose horizontal position for your button"
+msgstr ""
+
+#: cmsms-content-composer.php:355
+msgid "Button Label Google Font"
+msgstr ""
+
+#: cmsms-content-composer.php:356
+msgid "Choose custom Google font for your button label"
+msgstr ""
+
+#: cmsms-content-composer.php:357
+msgid "if empty, theme default button label font will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:358
+msgid "Button Label Font Size"
+msgstr ""
+
+#: cmsms-content-composer.php:359
+msgid "Choose custom font size for your button label "
+msgstr ""
+
+#: cmsms-content-composer.php:360
+msgid "if empty, theme default button label font size will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:361
+msgid "Button Label Line Height"
+msgstr ""
+
+#: cmsms-content-composer.php:362
+msgid "Choose custom line height for your button label "
+msgstr ""
+
+#: cmsms-content-composer.php:363
+msgid "if empty, theme default button label line height will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:364
+msgid "Button Label Font Weight"
+msgstr ""
+
+#: cmsms-content-composer.php:365
+msgid "Set font weight value for your button label"
+msgstr ""
+
+#: cmsms-content-composer.php:366
+msgid "Button Label Font Style"
+msgstr ""
+
+#: cmsms-content-composer.php:367
+msgid "Set font style value for your button label"
+msgstr ""
+
+#: cmsms-content-composer.php:368
+msgid "Button Left & Right Paddings"
+msgstr ""
+
+#: cmsms-content-composer.php:369
+msgid "Set right/left paddings for your button (to make it wider or narrower)"
+msgstr ""
+
+#: cmsms-content-composer.php:370
+msgid "if empty, theme default button paddings will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:371
+msgid "Button Border Width"
+msgstr ""
+
+#: cmsms-content-composer.php:372
+msgid "Enter button border width"
+msgstr ""
+
+#: cmsms-content-composer.php:373
+msgid "Button Border Radius"
+msgstr ""
+
+#: cmsms-content-composer.php:373
+msgid "Enter button border radius (default if empty)."
+msgstr ""
+
+#: cmsms-content-composer.php:374
+msgid "You can set any border radius rule here. "
+msgstr ""
+
+#: cmsms-content-composer.php:375
+msgid "For creating correct rule please use "
+msgstr ""
+
+#: cmsms-content-composer.php:377
+msgid "But copy only value of the first rule, for example like "
+msgstr ""
+
+#: cmsms-content-composer.php:379 cmsms-content-composer.php:501
+msgid "Button Background Color"
+msgstr ""
+
+#: cmsms-content-composer.php:380
+msgid "Choose your custom button background color"
+msgstr ""
+
+#: cmsms-content-composer.php:381
+msgid "Button Text Color"
+msgstr ""
+
+#: cmsms-content-composer.php:382
+msgid "Choose your custom button text color"
+msgstr ""
+
+#: cmsms-content-composer.php:383
+msgid "Button Border Color"
+msgstr ""
+
+#: cmsms-content-composer.php:384
+msgid "Choose your custom button border color"
+msgstr ""
+
+#: cmsms-content-composer.php:385
+msgid "Button Background Color on Mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:386
+msgid "Choose your custom button background color on mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:387
+msgid "Button Text Color on Mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:388
+msgid "Choose your custom button text color on mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:389
+msgid "Button Border Color on Mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:390
+msgid "Choose your custom button border color on mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:391 cmsms-content-composer.php:511
+msgid "Button Icon"
+msgstr ""
+
+#: cmsms-content-composer.php:392
+msgid "Choose an icon for your button"
+msgstr ""
+
+#: cmsms-content-composer.php:393 cmsms-content-composer.php:506
+msgid "Enter button title here"
+msgstr ""
+
+#: cmsms-content-composer.php:394
+msgid "Choose custom Google font for your button"
+msgstr ""
+
+#: cmsms-content-composer.php:395
+msgid "if empty, theme default button title font will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:396
+msgid "Choose custom font size for your button title"
+msgstr ""
+
+#: cmsms-content-composer.php:397
+msgid "if empty, theme default button title font size will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:398
+msgid "Choose custom line height for your button title"
+msgstr ""
+
+#: cmsms-content-composer.php:399
+msgid "if empty, theme default button title line height will be used"
+msgstr ""
+
+#: cmsms-content-composer.php:400
+msgid "Set font weight value for your button title"
+msgstr ""
+
+#: cmsms-content-composer.php:401
+msgid "Choose font style for your button title"
+msgstr ""
+
+#: cmsms-content-composer.php:404
+msgid "Custom Button Colors"
+msgstr ""
+
+#: cmsms-content-composer.php:405
+msgid "If not checked, button will use parent section color scheme colors"
+msgstr ""
+
+#: cmsms-content-composer.php:412
+msgid "Clients"
+msgstr ""
+
+#: cmsms-content-composer.php:413
+msgid "Add, edit, remove or sort your clients here to be displayed on page"
+msgstr ""
+
+#: cmsms-content-composer.php:414
+msgid "Choose number of clients per row"
+msgstr ""
+
+#: cmsms-content-composer.php:415
+msgid "Choose your clients shortcode layout"
+msgstr ""
+
+#: cmsms-content-composer.php:416 cmsms-content-composer.php:527
+#: cmsms-content-composer.php:891
+msgid "Slider"
+msgstr ""
+
+#: cmsms-content-composer.php:418 cmsms-content-composer.php:603
+msgid "Height"
+msgstr ""
+
+#: cmsms-content-composer.php:419
+msgid "Client items height"
+msgstr ""
+
+#: cmsms-content-composer.php:420
+msgid "number, in pixels (default value is 180)"
+msgstr ""
+
+#: cmsms-content-composer.php:421 cmsms-content-composer.php:851
+msgid "Border"
+msgstr ""
+
+#: cmsms-content-composer.php:422
+msgid "If checked, show clients border"
+msgstr ""
+
+#: cmsms-content-composer.php:423 cmsms-content-composer.php:541
+#: cmsms-content-composer.php:572 cmsms-content-composer.php:1351
+msgid "Autoplay"
+msgstr ""
+
+#: cmsms-content-composer.php:424 cmsms-content-composer.php:542
+msgid "Animate slider automatically"
+msgstr ""
+
+#: cmsms-content-composer.php:426
+msgid "Speed"
+msgstr ""
+
+#: cmsms-content-composer.php:427
+msgid "Slide speed in seconds"
+msgstr ""
+
+#: cmsms-content-composer.php:428
+msgid "If empty - 1 (in seconds)"
+msgstr ""
+
+#: cmsms-content-composer.php:429 cmsms-content-composer.php:537
+msgid "Animation Effect"
+msgstr ""
+
+#: cmsms-content-composer.php:430 cmsms-content-composer.php:538
+msgid "Choose your slider animation effect"
+msgstr ""
+
+#: cmsms-content-composer.php:431
+msgid "Slides Control"
+msgstr ""
+
+#: cmsms-content-composer.php:432
+msgid "If checked, enable slider slides control"
+msgstr ""
+
+#: cmsms-content-composer.php:433
+msgid "Arrow Control"
+msgstr ""
+
+#: cmsms-content-composer.php:434
+msgid "If checked, enable slider arrow control"
+msgstr ""
+
+#: cmsms-content-composer.php:441
+msgid "Contact Form"
+msgstr ""
+
+#: cmsms-content-composer.php:442
+msgid "CMSMasters Contact Form Builder"
+msgstr ""
+
+#: cmsms-content-composer.php:443
+msgid "Contact Form 7"
+msgstr ""
+
+#: cmsms-content-composer.php:444
+msgid "Contact Form Plugin"
+msgstr ""
+
+#: cmsms-content-composer.php:445
+msgid "Choose one of supported contact form plugins"
+msgstr ""
+
+#: cmsms-content-composer.php:446
+msgid ""
+"Please make sure that the Contact Form plugin you have chosen is currently "
+"installed and activated."
+msgstr ""
+
+#: cmsms-content-composer.php:447
+msgid "Contact Form 7 - Form Name"
+msgstr ""
+
+#: cmsms-content-composer.php:448
+msgid "Choose your form name from Contact Form 7 plugin"
+msgstr ""
+
+#: cmsms-content-composer.php:449
+msgid "CMSMasters Contact Form Builder - Form Name"
+msgstr ""
+
+#: cmsms-content-composer.php:450
+msgid "Choose your form name from CMSMasters Contact Form Builder plugin"
+msgstr ""
+
+#: cmsms-content-composer.php:451
+msgid "CMSMasters Contact Form Builder - Email Address"
+msgstr ""
+
+#: cmsms-content-composer.php:452
+msgid ""
+"Enter email address for your CMSMasters Contact Form Builder plugin form"
+msgstr ""
+
+#: cmsms-content-composer.php:453
+msgid "You can enter multiple email addresses separated by commas"
+msgstr ""
+
+#: cmsms-content-composer.php:459 inc/widgets.php:224
+msgid "Divider"
+msgstr ""
+
+#: cmsms-content-composer.php:460 inc/widgets.php:269
+msgid "Divider Type"
+msgstr ""
+
+#: cmsms-content-composer.php:461
+msgid "Choose type of your divider"
+msgstr ""
+
+#: cmsms-content-composer.php:462 inc/widgets.php:271
+msgid "Solid Line"
+msgstr ""
+
+#: cmsms-content-composer.php:463 inc/widgets.php:272
+msgid "Dashed Line"
+msgstr ""
+
+#: cmsms-content-composer.php:464 inc/widgets.php:273
+msgid "Dotted Line"
+msgstr ""
+
+#: cmsms-content-composer.php:465 inc/widgets.php:274
+msgid "Transparent Line"
+msgstr ""
+
+#: cmsms-content-composer.php:467
+msgid "Enter divider top margin"
+msgstr ""
+
+#: cmsms-content-composer.php:469
+msgid "Enter divider bottom margin"
+msgstr ""
+
+#: cmsms-content-composer.php:475
+msgid "Embed"
+msgstr ""
+
+#: cmsms-content-composer.php:476
+msgid "Enter your embed link."
+msgstr ""
+
+#: cmsms-content-composer.php:477
+msgid "This field support links from"
+msgstr ""
+
+#: cmsms-content-composer.php:478
+msgid "such services"
+msgstr ""
+
+#: cmsms-content-composer.php:479 cmsms-content-composer.php:994
+#: inc/widgets.php:372
+msgid "Max Width"
+msgstr ""
+
+#: cmsms-content-composer.php:480
+msgid "Defines max width of the embed"
+msgstr ""
+
+#: cmsms-content-composer.php:481
+msgid "('Media file width' if empty)"
+msgstr ""
+
+#: cmsms-content-composer.php:482 cmsms-content-composer.php:996
+#: inc/widgets.php:377
+msgid "Max Height"
+msgstr ""
+
+#: cmsms-content-composer.php:483
+msgid "Defines max height of the embed"
+msgstr ""
+
+#: cmsms-content-composer.php:484
+msgid "('Media file height' if empty)"
+msgstr ""
+
+#: cmsms-content-composer.php:485
+msgid "Wrap Video"
+msgstr ""
+
+#: cmsms-content-composer.php:486
+msgid ""
+"Wrap video into container to ignore default video height/max-height and set "
+"a 16:9 proportion instead."
+msgstr ""
+
+#: cmsms-content-composer.php:487
+msgid "Recommended only for video embeds"
+msgstr ""
+
+#: cmsms-content-composer.php:493
+msgid "Featured Block"
+msgstr ""
+
+#: cmsms-content-composer.php:495
+msgid "Custom Block Colors"
+msgstr ""
+
+#: cmsms-content-composer.php:496
+msgid ""
+"If not checked, featured block will use parent section color scheme colors"
+msgstr ""
+
+#: cmsms-content-composer.php:497
+msgid "Block Background Color"
+msgstr ""
+
+#: cmsms-content-composer.php:498
+msgid "Choose your custom block background color"
+msgstr ""
+
+#: cmsms-content-composer.php:499
+msgid "Block Text Color"
+msgstr ""
+
+#: cmsms-content-composer.php:500
+msgid "Choose your custom block text color"
+msgstr ""
+
+#: cmsms-content-composer.php:502
+msgid "Choose your custom button background color."
+msgstr ""
+
+#: cmsms-content-composer.php:503
+msgid "Button Title Color"
+msgstr ""
+
+#: cmsms-content-composer.php:504
+msgid "Choose your custom button text color."
+msgstr ""
+
+#: cmsms-content-composer.php:505
+msgid "Button Title"
+msgstr ""
+
+#: cmsms-content-composer.php:510 cmsms-content-composer.php:650
+msgid "Choose button link target type"
+msgstr ""
+
+#: cmsms-content-composer.php:517
+msgid "Gallery"
+msgstr ""
+
+#: cmsms-content-composer.php:518
+msgid "Images"
+msgstr ""
+
+#: cmsms-content-composer.php:519
+msgid "Choose images to be displayed in the gallery"
+msgstr ""
+
+#: cmsms-content-composer.php:520
+msgid "Gallery Big Preview Image Size"
+msgstr ""
+
+#: cmsms-content-composer.php:521
+msgid "Choose image size for the Big Preview Image"
+msgstr ""
+
+#: cmsms-content-composer.php:522
+msgid "Gallery Preview Image Size"
+msgstr ""
+
+#: cmsms-content-composer.php:523
+msgid "Choose image size for the preview thumbnails"
+msgstr ""
+
+#: cmsms-content-composer.php:524
+msgid "Choose your gallery shortcode layout"
+msgstr ""
+
+#: cmsms-content-composer.php:525
+msgid ""
+"For Hover Slider it is recommended that you use images with min size of "
+"820&#215;490 or larger, but with the same image ratio"
+msgstr ""
+
+#: cmsms-content-composer.php:526
+msgid "Hover Slider"
+msgstr ""
+
+#: cmsms-content-composer.php:528
+msgid "Image Gallery"
+msgstr ""
+
+#: cmsms-content-composer.php:529 cmsms-content-composer.php:804
+#: cmsms-content-composer.php:869 cmsms-content-composer.php:980
+msgid "Pause Time"
+msgstr ""
+
+#: cmsms-content-composer.php:530
+msgid "Enter your hover slider pause time"
+msgstr ""
+
+#: cmsms-content-composer.php:531 cmsms-content-composer.php:806
+msgid "if '0' - autoslide disabled, if empty - '5' (in seconds)"
+msgstr ""
+
+#: cmsms-content-composer.php:532
+msgid "Active Slide"
+msgstr ""
+
+#: cmsms-content-composer.php:533
+msgid "Enter your hover slider active slide"
+msgstr ""
+
+#: cmsms-content-composer.php:534
+msgid "if empty - 1 (number)"
+msgstr ""
+
+#: cmsms-content-composer.php:535 cmsms-content-composer.php:549
+msgid "Pause on Hover"
+msgstr ""
+
+#: cmsms-content-composer.php:536
+msgid "If checked the slider will pause on mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:539
+msgid "Slide"
+msgstr ""
+
+#: cmsms-content-composer.php:540
+msgid "Fade"
+msgstr ""
+
+#: cmsms-content-composer.php:543
+msgid "Slideshow Speed"
+msgstr ""
+
+#: cmsms-content-composer.php:544
+msgid "Set time during which each slide will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:545
+msgid "if empty - '7' (in seconds)"
+msgstr ""
+
+#: cmsms-content-composer.php:546
+msgid "Animation Speed"
+msgstr ""
+
+#: cmsms-content-composer.php:547
+msgid "Set animation transitions speed"
+msgstr ""
+
+#: cmsms-content-composer.php:548
+msgid "if empty - '600' (in milliseconds, 1 second = 1000 milliseconds)"
+msgstr ""
+
+#: cmsms-content-composer.php:550
+msgid "Pause slideshow on mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:551
+msgid "Rewind"
+msgstr ""
+
+#: cmsms-content-composer.php:552
+msgid "Slide to first when you click next on last slide"
+msgstr ""
+
+#: cmsms-content-composer.php:553
+msgid "Rewind speed"
+msgstr ""
+
+#: cmsms-content-composer.php:554
+msgid "Speed of sliding to the first slide"
+msgstr ""
+
+#: cmsms-content-composer.php:555
+msgid "if empty - '1000' (in milliseconds, 1 second = 1000 milliseconds)"
+msgstr ""
+
+#: cmsms-content-composer.php:556
+msgid "Navigation Control"
+msgstr ""
+
+#: cmsms-content-composer.php:557
+msgid "Navigation for paging control of each slide"
+msgstr ""
+
+#: cmsms-content-composer.php:558
+msgid "Arrow Navigation"
+msgstr ""
+
+#: cmsms-content-composer.php:559
+msgid "Slider arrow navigation"
+msgstr ""
+
+#: cmsms-content-composer.php:560
+msgid "Gallery Columns Amount"
+msgstr ""
+
+#: cmsms-content-composer.php:561
+msgid "Choose your image gallery columns count"
+msgstr ""
+
+#: cmsms-content-composer.php:562
+msgid "4 Columns"
+msgstr ""
+
+#: cmsms-content-composer.php:563
+msgid "3 Columns"
+msgstr ""
+
+#: cmsms-content-composer.php:564
+msgid "2 Columns"
+msgstr ""
+
+#: cmsms-content-composer.php:565
+msgid "1 Column"
+msgstr ""
+
+#: cmsms-content-composer.php:566
+msgid "Images Links Settings"
+msgstr ""
+
+#: cmsms-content-composer.php:567
+msgid "Gallery images links type"
+msgstr ""
+
+#: cmsms-content-composer.php:568
+msgid "Open images in lightbox"
+msgstr ""
+
+#: cmsms-content-composer.php:569
+msgid "Open images in current browser tab/window"
+msgstr ""
+
+#: cmsms-content-composer.php:570
+msgid "Open images in a new browser tab/window"
+msgstr ""
+
+#: cmsms-content-composer.php:571
+msgid "Disable links on images"
+msgstr ""
+
+#: cmsms-content-composer.php:578
+msgid "Google Map"
+msgstr ""
+
+#: cmsms-content-composer.php:579
+msgid "Markers"
+msgstr ""
+
+#: cmsms-content-composer.php:580
+msgid "Here you can add, edit, remove or sort Google map markers"
+msgstr ""
+
+#: cmsms-content-composer.php:581 cmsms-content-composer.php:1099
+msgid "Address Type"
+msgstr ""
+
+#: cmsms-content-composer.php:582
+msgid "Choose Google map address type"
+msgstr ""
+
+#: cmsms-content-composer.php:583
+msgid "address"
+msgstr ""
+
+#: cmsms-content-composer.php:584
+msgid "coordinates"
+msgstr ""
+
+#: cmsms-content-composer.php:585 framework/inc/editor-additions.php:40
+msgid "Address"
+msgstr ""
+
+#: cmsms-content-composer.php:586
+msgid "Enter address to centre your map at"
+msgstr ""
+
+#: cmsms-content-composer.php:587
+msgid "Latitude"
+msgstr ""
+
+#: cmsms-content-composer.php:588
+msgid "Enter latitude to centre your map"
+msgstr ""
+
+#: cmsms-content-composer.php:589
+msgid "Longitude"
+msgstr ""
+
+#: cmsms-content-composer.php:590
+msgid "Enter longitude to centre your map"
+msgstr ""
+
+#: cmsms-content-composer.php:591 cmsms-content-composer.php:1243
+msgid "Type"
+msgstr ""
+
+#: cmsms-content-composer.php:592
+msgid "Choose Google map type"
+msgstr ""
+
+#: cmsms-content-composer.php:593
+msgid "Roadmap"
+msgstr ""
+
+#: cmsms-content-composer.php:594
+msgid "Terrain"
+msgstr ""
+
+#: cmsms-content-composer.php:595
+msgid "Hybrid"
+msgstr ""
+
+#: cmsms-content-composer.php:596
+msgid "Satellite"
+msgstr ""
+
+#: cmsms-content-composer.php:597
+msgid "Map Zoom"
+msgstr ""
+
+#: cmsms-content-composer.php:598
+msgid "Choose Google map zoom"
+msgstr ""
+
+#: cmsms-content-composer.php:599
+msgid "Map Height Type"
+msgstr ""
+
+#: cmsms-content-composer.php:600
+msgid "Choose Google map height type"
+msgstr ""
+
+#: cmsms-content-composer.php:601 cmsms-content-composer.php:1310
+msgid "Auto"
+msgstr ""
+
+#: cmsms-content-composer.php:602 cmsms-content-composer.php:1304
+msgid "Fixed"
+msgstr ""
+
+#: cmsms-content-composer.php:604
+msgid "Set map fixed height"
+msgstr ""
+
+#: cmsms-content-composer.php:605
+msgid "(if empty - 300)"
+msgstr ""
+
+#: cmsms-content-composer.php:606
+msgid "Scrollwheel Zoom"
+msgstr ""
+
+#: cmsms-content-composer.php:607
+msgid "If checked, enable scrollwheel zooming on the map"
+msgstr ""
+
+#: cmsms-content-composer.php:608
+msgid "Double Click Zoom"
+msgstr ""
+
+#: cmsms-content-composer.php:609
+msgid "If checked, enable zoom and centre on double click"
+msgstr ""
+
+#: cmsms-content-composer.php:610
+msgid "Pan Control"
+msgstr ""
+
+#: cmsms-content-composer.php:611
+msgid "If checked, enable state of the pan control"
+msgstr ""
+
+#: cmsms-content-composer.php:612
+msgid "Zoom Control"
+msgstr ""
+
+#: cmsms-content-composer.php:613
+msgid "If checked, enable state of the zoom control"
+msgstr ""
+
+#: cmsms-content-composer.php:614
+msgid "Map Type Control"
+msgstr ""
+
+#: cmsms-content-composer.php:615
+msgid "If checked, enable state of the map type control"
+msgstr ""
+
+#: cmsms-content-composer.php:616
+msgid "Scale Control"
+msgstr ""
+
+#: cmsms-content-composer.php:617
+msgid "If checked, enable state of the scale control"
+msgstr ""
+
+#: cmsms-content-composer.php:618
+msgid "Street View Control"
+msgstr ""
+
+#: cmsms-content-composer.php:619
+msgid "If checked, enable state of the Street View Pegman control."
+msgstr ""
+
+#: cmsms-content-composer.php:620
+msgid ""
+"This control is part of the default UI, and should be set to false when "
+"displaying a map type on which the Street View road overlay should not "
+"appear (e.g. a non-Earth map type)"
+msgstr ""
+
+#: cmsms-content-composer.php:621
+msgid "Overview Map Control"
+msgstr ""
+
+#: cmsms-content-composer.php:622
+msgid "If checked, enable state of the overview map control"
+msgstr ""
+
+#: cmsms-content-composer.php:628
+msgid "Icon Box"
+msgstr ""
+
+#: cmsms-content-composer.php:629
+msgid "Box Title"
+msgstr ""
+
+#: cmsms-content-composer.php:630
+msgid "Enter box title here"
+msgstr ""
+
+#: cmsms-content-composer.php:631
+msgid "Enter box title"
+msgstr ""
+
+#: cmsms-content-composer.php:632
+msgid "Box Type"
+msgstr ""
+
+#: cmsms-content-composer.php:633
+msgid "Choose type of your icon box"
+msgstr ""
+
+#: cmsms-content-composer.php:634
+msgid "Heading Icon Box"
+msgstr ""
+
+#: cmsms-content-composer.php:635
+msgid "Centered Box"
+msgstr ""
+
+#: cmsms-content-composer.php:636
+msgid "Centered Colored Box"
+msgstr ""
+
+#: cmsms-content-composer.php:637
+msgid "Floated Icon Box"
+msgstr ""
+
+#: cmsms-content-composer.php:638
+msgid "Custom Box Color"
+msgstr ""
+
+#: cmsms-content-composer.php:639
+msgid "If not checked, icon box will use parent section color scheme colors"
+msgstr ""
+
+#: cmsms-content-composer.php:640
+msgid "Box Color"
+msgstr ""
+
+#: cmsms-content-composer.php:641
+msgid "Choose your custom box color. "
+msgstr ""
+
+#: cmsms-content-composer.php:642
+msgid ""
+"Depending on the box type color will be applied to box background or icon "
+"color. "
+msgstr ""
+
+#: cmsms-content-composer.php:643
+msgid "Box Icon"
+msgstr ""
+
+#: cmsms-content-composer.php:644
+msgid "Choose icon for your icon box"
+msgstr ""
+
+#: cmsms-content-composer.php:651
+msgid "Choose icon for your shortcode"
+msgstr ""
+
+#: cmsms-content-composer.php:652
+msgid "Choose custom size for your icon"
+msgstr ""
+
+#: cmsms-content-composer.php:653
+msgid "number, in pixels ('40' - if empty)"
+msgstr ""
+
+#: cmsms-content-composer.php:654
+msgid "Display"
+msgstr ""
+
+#: cmsms-content-composer.php:655
+msgid "Choose display type for your icon"
+msgstr ""
+
+#: cmsms-content-composer.php:656 cmsms-content-composer.php:689
+msgid "Icon Position"
+msgstr ""
+
+#: cmsms-content-composer.php:657
+msgid "Choose horizontal position for your icon"
+msgstr ""
+
+#: cmsms-content-composer.php:658
+msgid "Icon Link"
+msgstr ""
+
+#: cmsms-content-composer.php:659
+msgid "Enter icon link here"
+msgstr ""
+
+#: cmsms-content-composer.php:660
+msgid "Icon Link Target"
+msgstr ""
+
+#: cmsms-content-composer.php:661
+msgid "Choose icon link target type"
+msgstr ""
+
+#: cmsms-content-composer.php:662
+msgid "Custom Icon Color"
+msgstr ""
+
+#: cmsms-content-composer.php:663
+msgid "If not checked, icon will use color of parent section color scheme"
+msgstr ""
+
+#: cmsms-content-composer.php:664
+msgid "Choose your custom icon color"
+msgstr ""
+
+#: cmsms-content-composer.php:665
+msgid "Icon Color Transparency"
+msgstr ""
+
+#: cmsms-content-composer.php:666
+msgid "Choose your custom icon color transparency"
+msgstr ""
+
+#: cmsms-content-composer.php:672
+msgid "Icon List"
+msgstr ""
+
+#: cmsms-content-composer.php:673
+msgid "Here you can add, edit, remove or sort your icon list"
+msgstr ""
+
+#: cmsms-content-composer.php:674
+msgid "List Type"
+msgstr ""
+
+#: cmsms-content-composer.php:675
+msgid "Choose icon list type"
+msgstr ""
+
+#: cmsms-content-composer.php:676
+msgid "Icon blocks with content"
+msgstr ""
+
+#: cmsms-content-composer.php:677
+msgid "Just list with icons"
+msgstr ""
+
+#: cmsms-content-composer.php:678
+msgid "List Items Color Type"
+msgstr ""
+
+#: cmsms-content-composer.php:679
+msgid "Choose list items color type."
+msgstr ""
+
+#: cmsms-content-composer.php:680
+msgid "Apply a custom color as the color of icon border"
+msgstr ""
+
+#: cmsms-content-composer.php:681
+msgid "Apply a custom color as the color of icon background"
+msgstr ""
+
+#: cmsms-content-composer.php:682
+msgid "Apply a custom color as the color of icon"
+msgstr ""
+
+#: cmsms-content-composer.php:683
+msgid "Border Width"
+msgstr ""
+
+#: cmsms-content-composer.php:684
+msgid "Enter icon border width."
+msgstr ""
+
+#: cmsms-content-composer.php:685
+msgid "Border Radius"
+msgstr ""
+
+#: cmsms-content-composer.php:686
+msgid "Enter icon border radius"
+msgstr ""
+
+#: cmsms-content-composer.php:687
+msgid "List Items Unifier Width"
+msgstr ""
+
+#: cmsms-content-composer.php:688
+msgid "Enter list items unifier width."
+msgstr ""
+
+#: cmsms-content-composer.php:690
+msgid "Choose icon position."
+msgstr ""
+
+#: cmsms-content-composer.php:691
+msgid "This option works only for icon blocks."
+msgstr ""
+
+#: cmsms-content-composer.php:692
+msgid "Icon / Number Size"
+msgstr ""
+
+#: cmsms-content-composer.php:693
+msgid "Enter icon / bullet / number size."
+msgstr ""
+
+#: cmsms-content-composer.php:694
+msgid "Icon Space"
+msgstr ""
+
+#: cmsms-content-composer.php:695
+msgid "Enter icon space size."
+msgstr ""
+
+#: cmsms-content-composer.php:696
+msgid "number, in pixels (if empty - '100')"
+msgstr ""
+
+#: cmsms-content-composer.php:697
+msgid "List Item Height"
+msgstr ""
+
+#: cmsms-content-composer.php:698
+msgid "Enter list item line height."
+msgstr ""
+
+#: cmsms-content-composer.php:699
+msgid "number, in pixels (if empty - default line height)"
+msgstr ""
+
+#: cmsms-content-composer.php:707 cmsms-content-composer.php:1187
+#: inc/widgets.php:149 inc/widgets.php:159 inc/widgets.php:169
+#: inc/widgets.php:179 inc/widgets.php:189 inc/widgets.php:199
+msgid "Image"
+msgstr ""
+
+#: cmsms-content-composer.php:708
+msgid "Choose your image"
+msgstr ""
+
+#: cmsms-content-composer.php:709
+msgid "Image Alignment"
+msgstr ""
+
+#: cmsms-content-composer.php:710
+msgid "Choose image special align here"
+msgstr ""
+
+#: cmsms-content-composer.php:711
+msgid "No special alignment"
+msgstr ""
+
+#: cmsms-content-composer.php:712
+msgid "Image Caption Text"
+msgstr ""
+
+#: cmsms-content-composer.php:713
+msgid "Enter caption text for this image."
+msgstr ""
+
+#: cmsms-content-composer.php:714
+msgid "No caption if empty"
+msgstr ""
+
+#: cmsms-content-composer.php:715
+msgid "Image Link"
+msgstr ""
+
+#: cmsms-content-composer.php:716
+msgid "Enter the link for this image."
+msgstr ""
+
+#: cmsms-content-composer.php:717
+msgid "No link if empty"
+msgstr ""
+
+#: cmsms-content-composer.php:718
+msgid "Link Target"
+msgstr ""
+
+#: cmsms-content-composer.php:719
+msgid "Open link in a new tab/window?"
+msgstr ""
+
+#: cmsms-content-composer.php:720
+msgid "Lightbox"
+msgstr ""
+
+#: cmsms-content-composer.php:721
+msgid "Open image link in a lightbox?"
+msgstr ""
+
+#: cmsms-content-composer.php:728
+msgid "Notice"
+msgstr ""
+
+#: cmsms-content-composer.php:729
+msgid "Notice Text"
+msgstr ""
+
+#: cmsms-content-composer.php:730
+msgid "Notice Type"
+msgstr ""
+
+#: cmsms-content-composer.php:731
+msgid "Choose type of your notice"
+msgstr ""
+
+#: cmsms-content-composer.php:732
+msgid "Success"
+msgstr ""
+
+#: cmsms-content-composer.php:733
+msgid "Error"
+msgstr ""
+
+#: cmsms-content-composer.php:734
+msgid "Info"
+msgstr ""
+
+#: cmsms-content-composer.php:735
+msgid "Warning"
+msgstr ""
+
+#: cmsms-content-composer.php:736
+msgid "Download"
+msgstr ""
+
+#: cmsms-content-composer.php:737 cmsms-content-composer.php:1331
+msgid "Custom"
+msgstr ""
+
+#: cmsms-content-composer.php:738 cmsms-content-composer.php:1283
+msgid "Background Color"
+msgstr ""
+
+#: cmsms-content-composer.php:739
+msgid "Set custom background color"
+msgstr ""
+
+#: cmsms-content-composer.php:740
+msgid "Border Color"
+msgstr ""
+
+#: cmsms-content-composer.php:741
+msgid "Set custom border color"
+msgstr ""
+
+#: cmsms-content-composer.php:742
+msgid "Text Color"
+msgstr ""
+
+#: cmsms-content-composer.php:743
+msgid "Set custom text color"
+msgstr ""
+
+#: cmsms-content-composer.php:744
+msgid "Notice Close Button"
+msgstr ""
+
+#: cmsms-content-composer.php:745
+msgid "If checked, notice close button will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:746
+msgid "Notice Icon"
+msgstr ""
+
+#: cmsms-content-composer.php:747
+msgid "Choose icon for your notice"
+msgstr ""
+
+#: cmsms-content-composer.php:754
+msgid "Portfolio"
+msgstr ""
+
+#: cmsms-content-composer.php:755
+msgid "Choose your portfolio projects order by parameter"
+msgstr ""
+
+#: cmsms-content-composer.php:756
+msgid "Projects Number"
+msgstr ""
+
+#: cmsms-content-composer.php:757
+msgid "Enter the number of projects for showing per page"
+msgstr ""
+
+#: cmsms-content-composer.php:758
+msgid "number, if empty - show all projects"
+msgstr ""
+
+#: cmsms-content-composer.php:759 cmsms-content-composer.php:797
+msgid "Show projects associated with certain categories."
+msgstr ""
+
+#: cmsms-content-composer.php:760 cmsms-content-composer.php:798
+msgid ""
+"If you don't choose any project categories, all your projects will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:761
+msgid "Choose layout type for your portfolio projects"
+msgstr ""
+
+#: cmsms-content-composer.php:762
+msgid "Projects Grid"
+msgstr ""
+
+#: cmsms-content-composer.php:763
+msgid "Masonry Puzzle"
+msgstr ""
+
+#: cmsms-content-composer.php:765
+msgid "Choose grid layout mode for your portfolio projects"
+msgstr ""
+
+#: cmsms-content-composer.php:766
+msgid "Perfect grid"
+msgstr ""
+
+#: cmsms-content-composer.php:767
+msgid "Masonry grid"
+msgstr ""
+
+#: cmsms-content-composer.php:768
+msgid "Choose number of projects per row"
+msgstr ""
+
+#: cmsms-content-composer.php:769
+msgid ""
+"4 and 5 columns will be shown for pages with a fullwidth layout only. For "
+"pages with a sidebar enabled, maximum columns amount is 3."
+msgstr ""
+
+#: cmsms-content-composer.php:770
+msgid ""
+"And 5 columns will be shown only if custom content width is set and when "
+"content area width is 1350px or more."
+msgstr ""
+
+#: cmsms-content-composer.php:772
+msgid "Choose portfolio projects metadata that you want to show"
+msgstr ""
+
+#: cmsms-content-composer.php:773
+msgid "Gap"
+msgstr ""
+
+#: cmsms-content-composer.php:774
+msgid "Choose the gap between portfolio projects"
+msgstr ""
+
+#: cmsms-content-composer.php:775
+msgid "Large gap"
+msgstr ""
+
+#: cmsms-content-composer.php:776
+msgid "1 Pixel gap"
+msgstr ""
+
+#: cmsms-content-composer.php:777
+msgid "No gap"
+msgstr ""
+
+#: cmsms-content-composer.php:778
+msgid "If checked, enable portfolio projects category filter"
+msgstr ""
+
+#: cmsms-content-composer.php:779 cmsms-content-composer.php:959
+msgid "Sorting"
+msgstr ""
+
+#: cmsms-content-composer.php:780
+msgid "If checked, enable portfolio projects date & name sorting"
+msgstr ""
+
+#: cmsms-content-composer.php:787
+msgid "Posts Slider"
+msgstr ""
+
+#: cmsms-content-composer.php:788
+msgid "Order posts by one of the given parameters"
+msgstr ""
+
+#: cmsms-content-composer.php:789
+msgid "Choose Posts Type"
+msgstr ""
+
+#: cmsms-content-composer.php:790
+msgid "Choose shortcodes posts type"
+msgstr ""
+
+#: cmsms-content-composer.php:791
+msgid "Blog posts"
+msgstr ""
+
+#: cmsms-content-composer.php:792
+msgid "Portfolio projects"
+msgstr ""
+
+#: cmsms-content-composer.php:793
+msgid "Posts Categories"
+msgstr ""
+
+#: cmsms-content-composer.php:794
+msgid "Show blog posts associated with certain categories."
+msgstr ""
+
+#: cmsms-content-composer.php:796
+msgid "Projects Categories"
+msgstr ""
+
+#: cmsms-content-composer.php:800
+msgid "Posts Number per Page"
+msgstr ""
+
+#: cmsms-content-composer.php:801
+msgid "Enter the number of posts for showing per page"
+msgstr ""
+
+#: cmsms-content-composer.php:805
+msgid "Enter your posts slider pause time"
+msgstr ""
+
+#: cmsms-content-composer.php:808
+msgid "Posts Metadata"
+msgstr ""
+
+#: cmsms-content-composer.php:810
+msgid "Projects Metadata"
+msgstr ""
+
+#: cmsms-content-composer.php:811
+msgid "Choose portfolio projects metadata you want to be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:818
+msgid "Pricing Table"
+msgstr ""
+
+#: cmsms-content-composer.php:819
+msgid "Offers"
+msgstr ""
+
+#: cmsms-content-composer.php:820
+msgid "Here you can add, edit, remove or sort pricing table offers"
+msgstr ""
+
+#: cmsms-content-composer.php:821
+msgid "Choose number of pricing table offers per row"
+msgstr ""
+
+#: cmsms-content-composer.php:828 inc/profile/profiles-post-type.php:23
+#: inc/profile/profiles-post-type.php:24 inc/profile/profiles-post-type.php:25
+msgid "Profiles"
+msgstr ""
+
+#: cmsms-content-composer.php:829
+msgid "Choose your profiles order by parameter"
+msgstr ""
+
+#: cmsms-content-composer.php:830
+msgid "Profiles Number per Page"
+msgstr ""
+
+#: cmsms-content-composer.php:831
+msgid "Enter the number of profiles to show per page"
+msgstr ""
+
+#: cmsms-content-composer.php:832
+msgid "number, if empty - show all profiles"
+msgstr ""
+
+#: cmsms-content-composer.php:833
+msgid "Show profiles associated with certain categories"
+msgstr ""
+
+#: cmsms-content-composer.php:834
+msgid ""
+"If you don't choose any profile categories, all your profiles will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:835
+msgid "Choose your profiles layout"
+msgstr ""
+
+#: cmsms-content-composer.php:836
+msgid "Choose number of profiles per row"
+msgstr ""
+
+#: cmsms-content-composer.php:842
+msgid "Progress Bars"
+msgstr ""
+
+#: cmsms-content-composer.php:843
+msgid "Here you can add, edit, remove or sort progress bars"
+msgstr ""
+
+#: cmsms-content-composer.php:844
+msgid "Choose mode of your progress bars"
+msgstr ""
+
+#: cmsms-content-composer.php:845
+msgid "Bars"
+msgstr ""
+
+#: cmsms-content-composer.php:846
+msgid "Counters"
+msgstr ""
+
+#: cmsms-content-composer.php:847
+msgid "Counters Type"
+msgstr ""
+
+#: cmsms-content-composer.php:848
+msgid "Choose type of counters"
+msgstr ""
+
+#: cmsms-content-composer.php:849
+msgid "Circles"
+msgstr ""
+
+#: cmsms-content-composer.php:850
+msgid "Numbers"
+msgstr ""
+
+#: cmsms-content-composer.php:852
+msgid "If checked, show border"
+msgstr ""
+
+#: cmsms-content-composer.php:853
+msgid "Number per Row"
+msgstr ""
+
+#: cmsms-content-composer.php:854
+msgid "Choose number of progress bars per row."
+msgstr ""
+
+#: cmsms-content-composer.php:855
+msgid "This option works only for progress bars with type counters"
+msgstr ""
+
+#: cmsms-content-composer.php:862
+msgid "Quotes"
+msgstr ""
+
+#: cmsms-content-composer.php:863
+msgid "Here you can add, edit, remove or sort quotes"
+msgstr ""
+
+#: cmsms-content-composer.php:864
+msgid "Choose your quotes visibility mode"
+msgstr ""
+
+#: cmsms-content-composer.php:865
+msgid "Grid mode"
+msgstr ""
+
+#: cmsms-content-composer.php:866
+msgid "Slider mode"
+msgstr ""
+
+#: cmsms-content-composer.php:867
+msgid "Choose number of quotes per row"
+msgstr ""
+
+#: cmsms-content-composer.php:870
+msgid "Time before next quote will appear"
+msgstr ""
+
+#: cmsms-content-composer.php:871
+msgid "if '0' - autoslide disabled"
+msgstr ""
+
+#: cmsms-content-composer.php:878
+msgid "Sidebar"
+msgstr ""
+
+#: cmsms-content-composer.php:879
+msgid "Choose one of already existing sidebars here"
+msgstr ""
+
+#: cmsms-content-composer.php:880
+msgid "or, you can create your own sidebar"
+msgstr ""
+
+#: cmsms-content-composer.php:881
+msgid "here"
+msgstr ""
+
+#: cmsms-content-composer.php:882
+msgid "Sidebar Layout"
+msgstr ""
+
+#: cmsms-content-composer.php:883
+msgid "Choose layout for this sidebar here"
+msgstr ""
+
+#: cmsms-content-composer.php:884
+msgid "we recommend to use this option for horizontal sidebars"
+msgstr ""
+
+#: cmsms-content-composer.php:892
+msgid "Layer Slider"
+msgstr ""
+
+#: cmsms-content-composer.php:893
+msgid "Revolution Slider"
+msgstr ""
+
+#: cmsms-content-composer.php:894
+msgid "Slider Plugin"
+msgstr ""
+
+#: cmsms-content-composer.php:895
+msgid "Choose one of supported slider plugins"
+msgstr ""
+
+#: cmsms-content-composer.php:896
+msgid ""
+"Please make sure that the Slider plugin you have chosen is currently "
+"installed and activated."
+msgstr ""
+
+#: cmsms-content-composer.php:897
+msgid "Layer Slider Name"
+msgstr ""
+
+#: cmsms-content-composer.php:898
+msgid "Choose your slider name from Layer Slider plugin"
+msgstr ""
+
+#: cmsms-content-composer.php:899
+msgid "Revolution Slider Name"
+msgstr ""
+
+#: cmsms-content-composer.php:900
+msgid "Choose your slider name from Revolution Slider plugin"
+msgstr ""
+
+#: cmsms-content-composer.php:907
+msgid "Social Sharing"
+msgstr ""
+
+#: cmsms-content-composer.php:908
+msgid "Facebook Like Button"
+msgstr ""
+
+#: cmsms-content-composer.php:909
+msgid "If checked, show Facebook 'Like' button"
+msgstr ""
+
+#: cmsms-content-composer.php:910
+msgid "Twitter Tweet Button"
+msgstr ""
+
+#: cmsms-content-composer.php:911
+msgid "If checked, show Twitter 'Tweet' button"
+msgstr ""
+
+#: cmsms-content-composer.php:912
+msgid "Google+ Button"
+msgstr ""
+
+#: cmsms-content-composer.php:913
+msgid "If checked, show Google Plus '+1' button"
+msgstr ""
+
+#: cmsms-content-composer.php:914
+msgid "Pinterest Pin It Button"
+msgstr ""
+
+#: cmsms-content-composer.php:915
+msgid "If checked, show Pinterest 'Pin it' button"
+msgstr ""
+
+#: cmsms-content-composer.php:916
+msgid "Buttons Type"
+msgstr ""
+
+#: cmsms-content-composer.php:917
+msgid "Choose your social buttons type"
+msgstr ""
+
+#: cmsms-content-composer.php:924
+msgid "Table"
+msgstr ""
+
+#: cmsms-content-composer.php:925
+msgid "Table Content"
+msgstr ""
+
+#: cmsms-content-composer.php:926
+msgid "Build your table and fill it with data"
+msgstr ""
+
+#: cmsms-content-composer.php:927
+msgid "Table Caption"
+msgstr ""
+
+#: cmsms-content-composer.php:928
+msgid ""
+"Add a short caption for your table so that visitors know what this data is "
+"about"
+msgstr ""
+
+#: cmsms-content-composer.php:935
+msgid "Tabs / Tour"
+msgstr ""
+
+#: cmsms-content-composer.php:936
+msgid "Here you can add, edit, remove or sort tabs"
+msgstr ""
+
+#: cmsms-content-composer.php:937
+msgid "How should the tabs be displayed, top or side?"
+msgstr ""
+
+#: cmsms-content-composer.php:938
+msgid "Tabs mode"
+msgstr ""
+
+#: cmsms-content-composer.php:939
+msgid "Tour mode"
+msgstr ""
+
+#: cmsms-content-composer.php:940
+msgid "Position"
+msgstr ""
+
+#: cmsms-content-composer.php:941
+msgid "Choose tour tabs position"
+msgstr ""
+
+#: cmsms-content-composer.php:942
+msgid "Active Tab"
+msgstr ""
+
+#: cmsms-content-composer.php:943
+msgid "Enter the number of the tab that should be open initially."
+msgstr ""
+
+#: cmsms-content-composer.php:944
+msgid "If empty first tab should be open on page load"
+msgstr ""
+
+#: cmsms-content-composer.php:951
+msgid "Toggles / Accordion"
+msgstr ""
+
+#: cmsms-content-composer.php:952
+msgid "Here you can add, edit, remove or sort toggles"
+msgstr ""
+
+#: cmsms-content-composer.php:953
+msgid ""
+"Should only one toggle be active at a time or can multiple toggles be open "
+"at the same time?"
+msgstr ""
+
+#: cmsms-content-composer.php:954
+msgid "Toggles mode"
+msgstr ""
+
+#: cmsms-content-composer.php:955
+msgid "Accordion mode"
+msgstr ""
+
+#: cmsms-content-composer.php:956
+msgid "Active Toggle"
+msgstr ""
+
+#: cmsms-content-composer.php:957
+msgid "Enter the number of the toggle that should be open initially."
+msgstr ""
+
+#: cmsms-content-composer.php:958
+msgid "If empty all toggles should be close on page load"
+msgstr ""
+
+#: cmsms-content-composer.php:960
+msgid "If checked, toggles sorting will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:967
+msgid "Twitter Stripe"
+msgstr ""
+
+#: cmsms-content-composer.php:968
+msgid "Twitter Username"
+msgstr ""
+
+#: cmsms-content-composer.php:969
+msgid "Enter your Twitter username"
+msgstr ""
+
+#: cmsms-content-composer.php:970
+msgid "Tweets Number"
+msgstr ""
+
+#: cmsms-content-composer.php:971
+msgid "Enter the number of latest tweets you'd like to display"
+msgstr ""
+
+#: cmsms-content-composer.php:972
+msgid "(5 - if empty)"
+msgstr ""
+
+#: cmsms-content-composer.php:973
+msgid "Date visibility"
+msgstr ""
+
+#: cmsms-content-composer.php:974
+msgid "Show or hide tweet date"
+msgstr ""
+
+#: cmsms-content-composer.php:975
+msgid "Slider Controls"
+msgstr ""
+
+#: cmsms-content-composer.php:976
+msgid "If checked, enable tweets slider controls"
+msgstr ""
+
+#: cmsms-content-composer.php:978
+msgid "Animate next tweet automatically"
+msgstr ""
+
+#: cmsms-content-composer.php:981
+msgid "Time before next slide will appear"
+msgstr ""
+
+#: cmsms-content-composer.php:982
+msgid "If empty - 3"
+msgstr ""
+
+#: cmsms-content-composer.php:989 cmsms-content-composer.php:1230
+#: inc/widgets.php:807 inc/widgets.php:812 inc/widgets.php:817
+msgid "Video"
+msgstr ""
+
+#: cmsms-content-composer.php:990
+msgid "Here you can add, edit, remove or sort video links"
+msgstr ""
+
+#: cmsms-content-composer.php:991
+msgid ""
+"Please add video in several formats for your shortcode to work properly in "
+"all browsers"
+msgstr ""
+
+#: cmsms-content-composer.php:992
+msgid "Poster"
+msgstr ""
+
+#: cmsms-content-composer.php:993
+msgid "Defines image to show as placeholder before the media plays"
+msgstr ""
+
+#: cmsms-content-composer.php:995
+msgid "Defines max width of the media"
+msgstr ""
+
+#: cmsms-content-composer.php:997
+msgid "Defines max height of the media"
+msgstr ""
+
+#: cmsms-content-composer.php:998
+msgid "If checked, video will play as soon as the video is ready"
+msgstr ""
+
+#: cmsms-content-composer.php:999
+msgid "Muted"
+msgstr ""
+
+#: cmsms-content-composer.php:1000
+msgid "If checked, video will play without the sound"
+msgstr ""
+
+#: cmsms-content-composer.php:1001
+msgid "If checked, video will be repeated from the beginning after finishing"
+msgstr ""
+
+#: cmsms-content-composer.php:1002
+msgid "Specifies if and how the video should be loaded when the page loads"
+msgstr ""
+
+#: cmsms-content-composer.php:1003
+msgid "None - the video should not be loaded when the page loads"
+msgstr ""
+
+#: cmsms-content-composer.php:1004
+msgid "Auto - the video should be loaded entirely when the page loads"
+msgstr ""
+
+#: cmsms-content-composer.php:1011
+msgid "Custom HTML"
+msgstr ""
+
+#: cmsms-content-composer.php:1012
+msgid "HTML Code"
+msgstr ""
+
+#: cmsms-content-composer.php:1013
+msgid "Enter here your custom HTML code"
+msgstr ""
+
+#: cmsms-content-composer.php:1020
+msgid "Custom CSS"
+msgstr ""
+
+#: cmsms-content-composer.php:1021
+msgid "CSS Code"
+msgstr ""
+
+#: cmsms-content-composer.php:1022
+msgid "Enter here your custom CSS code"
+msgstr ""
+
+#: cmsms-content-composer.php:1029
+msgid "Custom JS"
+msgstr ""
+
+#: cmsms-content-composer.php:1030
+msgid "JavaScript Code"
+msgstr ""
+
+#: cmsms-content-composer.php:1031
+msgid "Enter here your custom JavaScript code"
+msgstr ""
+
+#: cmsms-content-composer.php:1037 cmsms-content-composer.php:1052
+msgid "Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1038
+msgid "WooCommerce Shortcode"
+msgstr ""
+
+#: cmsms-content-composer.php:1039
+msgid "Choose a WooCommerce shortcode to use"
+msgstr ""
+
+#: cmsms-content-composer.php:1040
+msgid "Recent Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1041
+msgid "Featured Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1042
+msgid "Product Categories"
+msgstr ""
+
+#: cmsms-content-composer.php:1043
+msgid "Sale Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1044
+msgid "Best Selling Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1045
+msgid "Top Rated Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1046
+msgid "Choose your products 'order by' parameter"
+msgstr ""
+
+#: cmsms-content-composer.php:1047
+msgid "Sorting will not be applied for"
+msgstr ""
+
+#: cmsms-content-composer.php:1048
+msgid "Number of Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1049
+msgid "Enter the number of products for showing per page"
+msgstr ""
+
+#: cmsms-content-composer.php:1050
+msgid "Choose number of products per row"
+msgstr ""
+
+#: cmsms-content-composer.php:1051
+msgid "Selected Products"
+msgstr ""
+
+#: cmsms-content-composer.php:1053
+msgid "Choose products to be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:1054
+msgid "All products will be shown if empty"
+msgstr ""
+
+#: cmsms-content-composer.php:1060
+msgid "PayPal Donations"
+msgstr ""
+
+#: cmsms-content-composer.php:1061
+msgid "Donation Amount"
+msgstr ""
+
+#: cmsms-content-composer.php:1062
+msgid "Enter donation amount"
+msgstr ""
+
+#: cmsms-content-composer.php:1063
+msgid "If empty, no fixed donation amount will be set"
+msgstr ""
+
+#: cmsms-content-composer.php:1064
+msgid "Donation Purpose"
+msgstr ""
+
+#: cmsms-content-composer.php:1065
+msgid "Enter donation purpose"
+msgstr ""
+
+#: cmsms-content-composer.php:1066
+msgid "If empty, a Donator will be able to enter any purpose"
+msgstr ""
+
+#: cmsms-content-composer.php:1067
+msgid "Donation Reference"
+msgstr ""
+
+#: cmsms-content-composer.php:1068
+msgid "Enter reference for the donation"
+msgstr ""
+
+#: cmsms-content-composer.php:1069
+msgid "If empty, no reference will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:1070 cmsms-content-composer.php:1143
+msgid "Button Text"
+msgstr ""
+
+#: cmsms-content-composer.php:1071
+msgid "Enter button text"
+msgstr ""
+
+#: cmsms-content-composer.php:1072
+msgid "If empty, no text will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:1081
+msgid "Audio Link"
+msgstr ""
+
+#: cmsms-content-composer.php:1082
+msgid "Enter audio file link here"
+msgstr ""
+
+#: cmsms-content-composer.php:1088
+msgid "Client"
+msgstr ""
+
+#: cmsms-content-composer.php:1089
+msgid "Enter this client name"
+msgstr ""
+
+#: cmsms-content-composer.php:1090
+msgid "Logo"
+msgstr ""
+
+#: cmsms-content-composer.php:1091
+msgid "Choose this client logo"
+msgstr ""
+
+#: cmsms-content-composer.php:1092
+msgid "Enter this client website link"
+msgstr ""
+
+#: cmsms-content-composer.php:1098
+msgid "Google Map Marker"
+msgstr ""
+
+#: cmsms-content-composer.php:1100
+msgid "Choose Google map marker address type"
+msgstr ""
+
+#: cmsms-content-composer.php:1101
+msgid "Enter address to centre this map marker at"
+msgstr ""
+
+#: cmsms-content-composer.php:1102
+msgid "Enter latitude to center your map marker"
+msgstr ""
+
+#: cmsms-content-composer.php:1103
+msgid "Enter longitude to center your map marker"
+msgstr ""
+
+#: cmsms-content-composer.php:1104
+msgid "Popup HTML"
+msgstr ""
+
+#: cmsms-content-composer.php:1105
+msgid "Enter the content for this marker information popup"
+msgstr ""
+
+#: cmsms-content-composer.php:1106
+msgid "Popup Visibility"
+msgstr ""
+
+#: cmsms-content-composer.php:1107
+msgid "If checked, this marker information popup will be shown"
+msgstr ""
+
+#: cmsms-content-composer.php:1114
+msgid "List Item"
+msgstr ""
+
+#: cmsms-content-composer.php:1115
+msgid "Choose icon for this list item"
+msgstr ""
+
+#: cmsms-content-composer.php:1116
+msgid "Enter this list item title"
+msgstr ""
+
+#: cmsms-content-composer.php:1117
+msgid "Enter this list item content."
+msgstr ""
+
+#: cmsms-content-composer.php:1118
+msgid "This option works only for icon blocks"
+msgstr ""
+
+#: cmsms-content-composer.php:1119
+msgid "Custom List Item Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1120
+msgid ""
+"If not checked, icon list item will use parent section color scheme colors"
+msgstr ""
+
+#: cmsms-content-composer.php:1121
+msgid "Choose list item icon background color."
+msgstr ""
+
+#: cmsms-content-composer.php:1128
+msgid "Pricing Table Offer"
+msgstr ""
+
+#: cmsms-content-composer.php:1129
+msgid "Enter this pricing table offer title"
+msgstr ""
+
+#: cmsms-content-composer.php:1130
+msgid "Price"
+msgstr ""
+
+#: cmsms-content-composer.php:1131
+msgid "Enter this pricing table offer price"
+msgstr ""
+
+#: cmsms-content-composer.php:1132
+msgid "Coins"
+msgstr ""
+
+#: cmsms-content-composer.php:1133
+msgid "Enter this pricing table offer price coins"
+msgstr ""
+
+#: cmsms-content-composer.php:1134
+msgid "Currency"
+msgstr ""
+
+#: cmsms-content-composer.php:1135
+msgid "Enter this pricing table offer currency"
+msgstr ""
+
+#: cmsms-content-composer.php:1136
+msgid "Period"
+msgstr ""
+
+#: cmsms-content-composer.php:1137
+msgid "Enter this pricing table offer period"
+msgstr ""
+
+#: cmsms-content-composer.php:1138
+msgid "Custom Offer Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1139
+msgid ""
+"If not checked, pricing table offer will use parent section color scheme "
+"colors"
+msgstr ""
+
+#: cmsms-content-composer.php:1140
+msgid "Choose color for this pricing table offer"
+msgstr ""
+
+#: cmsms-content-composer.php:1141
+msgid "Features"
+msgstr ""
+
+#: cmsms-content-composer.php:1142
+msgid "Add pricing table offer features"
+msgstr ""
+
+#: cmsms-content-composer.php:1144
+msgid "Enter this pricing table offer button text"
+msgstr ""
+
+#: cmsms-content-composer.php:1146
+msgid "Enter this pricing table offer button link"
+msgstr ""
+
+#: cmsms-content-composer.php:1147
+msgid "Best Offer"
+msgstr ""
+
+#: cmsms-content-composer.php:1148
+msgid "If checked, this pricing table offer will be highlighted"
+msgstr ""
+
+#: cmsms-content-composer.php:1149
+msgid "Custom Best Offer Background Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1150
+msgid ""
+"If not checked, pricing table best offer will use parent section color "
+"scheme colors"
+msgstr ""
+
+#: cmsms-content-composer.php:1151
+msgid "Best Offer Background Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1152
+msgid "Choose background color for this pricing table best offer"
+msgstr ""
+
+#: cmsms-content-composer.php:1153
+msgid "Best Offer Text Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1154
+msgid "Choose text color for this pricing table best offer"
+msgstr ""
+
+#: cmsms-content-composer.php:1160
+msgid "Progress Bar"
+msgstr ""
+
+#: cmsms-content-composer.php:1161
+msgid "Enter this progress bar title"
+msgstr ""
+
+#: cmsms-content-composer.php:1162
+msgid "Progress"
+msgstr ""
+
+#: cmsms-content-composer.php:1163
+msgid "Choose this bar progress."
+msgstr ""
+
+#: cmsms-content-composer.php:1164
+msgid "Only for progress bar with mode"
+msgstr ""
+
+#: cmsms-content-composer.php:1165
+msgid "bars"
+msgstr ""
+
+#: cmsms-content-composer.php:1166
+msgid "or mode"
+msgstr ""
+
+#: cmsms-content-composer.php:1167
+msgid "counters"
+msgstr ""
+
+#: cmsms-content-composer.php:1168
+msgid "& counters type"
+msgstr ""
+
+#: cmsms-content-composer.php:1169
+msgid "circles"
+msgstr ""
+
+#: cmsms-content-composer.php:1170
+msgid "(percentage)"
+msgstr ""
+
+#: cmsms-content-composer.php:1171
+msgid "Custom Progress Bar Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1172
+msgid ""
+"If not checked, progress bar will use parent section color scheme colors"
+msgstr ""
+
+#: cmsms-content-composer.php:1173
+msgid "Bar Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1174
+msgid "Choose color for this progress bar"
+msgstr ""
+
+#: cmsms-content-composer.php:1175
+msgid "Counter Value"
+msgstr ""
+
+#: cmsms-content-composer.php:1176
+msgid "Enter counter value number."
+msgstr ""
+
+#: cmsms-content-composer.php:1177
+msgid "numbers"
+msgstr ""
+
+#: cmsms-content-composer.php:1178
+msgid "Counter Value Prefix"
+msgstr ""
+
+#: cmsms-content-composer.php:1179
+msgid "Counter Value Suffix"
+msgstr ""
+
+#: cmsms-content-composer.php:1180
+msgid "Choose icon for your progress bar"
+msgstr ""
+
+#: cmsms-content-composer.php:1186 cmsms-content-composer.php:1192
+msgid "Quote"
+msgstr ""
+
+#: cmsms-content-composer.php:1188
+msgid "Choose this quote author image"
+msgstr ""
+
+#: cmsms-content-composer.php:1189
+msgid "Enter this team quote author name"
+msgstr ""
+
+#: cmsms-content-composer.php:1190
+msgid "Subtitle"
+msgstr ""
+
+#: cmsms-content-composer.php:1191
+msgid "Enter this quote subtitle"
+msgstr ""
+
+#: cmsms-content-composer.php:1193
+msgid "Enter this quote text"
+msgstr ""
+
+#: cmsms-content-composer.php:1194
+msgid "Website Link"
+msgstr ""
+
+#: cmsms-content-composer.php:1195
+msgid "Enter the link of quote author website"
+msgstr ""
+
+#: cmsms-content-composer.php:1196
+msgid "Website Name"
+msgstr ""
+
+#: cmsms-content-composer.php:1197
+msgid "Enter quote author website name"
+msgstr ""
+
+#: cmsms-content-composer.php:1204
+msgid "Tab"
+msgstr ""
+
+#: cmsms-content-composer.php:1205
+msgid "Enter this tab title"
+msgstr ""
+
+#: cmsms-content-composer.php:1206
+msgid "Enter this tab content"
+msgstr ""
+
+#: cmsms-content-composer.php:1207
+msgid "Custom Tab Selector Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1208
+msgid ""
+"If not checked, tab selector will use parent section color scheme colors"
+msgstr ""
+
+#: cmsms-content-composer.php:1209
+msgid "Tab Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1210
+msgid "Choose tab selector background color on mouseover"
+msgstr ""
+
+#: cmsms-content-composer.php:1211
+msgid "Choose icon for this tab"
+msgstr ""
+
+#: cmsms-content-composer.php:1218
+msgid "Toggle"
+msgstr ""
+
+#: cmsms-content-composer.php:1219
+msgid "Enter this toggle title"
+msgstr ""
+
+#: cmsms-content-composer.php:1220
+msgid "Enter this toggle content"
+msgstr ""
+
+#: cmsms-content-composer.php:1221
+msgid "Toggle Tags"
+msgstr ""
+
+#: cmsms-content-composer.php:1222
+msgid "Enter additional toggle tags separated with commas."
+msgstr ""
+
+#: cmsms-content-composer.php:1223
+msgid "Only for toggles with enabled sorting."
+msgstr ""
+
+#: cmsms-content-composer.php:1231
+msgid "Video Link"
+msgstr ""
+
+#: cmsms-content-composer.php:1232
+msgid "Choose your video file here"
+msgstr ""
+
+#: cmsms-content-composer.php:1241
+msgid "Dropcap"
+msgstr ""
+
+#: cmsms-content-composer.php:1242
+msgid "Enter the character/symbol for this dropcap"
+msgstr ""
+
+#: cmsms-content-composer.php:1244
+msgid "Choose dropcap type"
+msgstr ""
+
+#: cmsms-content-composer.php:1245
+msgid "Type 1"
+msgstr ""
+
+#: cmsms-content-composer.php:1246
+msgid "Type 2"
+msgstr ""
+
+#: cmsms-content-composer.php:1247
+msgid "Dropcap Letter"
+msgstr ""
+
+#: cmsms-content-composer.php:1249
+msgid "Default Dropcap"
+msgstr ""
+
+#: cmsms-content-composer.php:1250
+msgid "Styled Dropcap"
+msgstr ""
+
+#: cmsms-content-composer.php:1257
+msgid "Feature"
+msgstr ""
+
+#: cmsms-content-composer.php:1258
+msgid "Enter the title for this link"
+msgstr ""
+
+#: cmsms-content-composer.php:1260
+msgid "Choose icon for this link"
+msgstr ""
+
+#: cmsms-content-composer.php:1267
+msgid "Column"
+msgstr ""
+
+#: cmsms-content-composer.php:1268
+msgid ""
+"Column animation effect when a user scrolls to its position for the first "
+"time."
+msgstr ""
+
+#: cmsms-content-composer.php:1269
+msgid "Delay before column animation starts"
+msgstr ""
+
+#: cmsms-content-composer.php:1270
+msgid ""
+"You can add additional CSS classes (separated by spaces) to the column, if "
+"you wish to style content elements differently"
+msgstr ""
+
+#: cmsms-content-composer.php:1277
+msgid "Section"
+msgstr ""
+
+#: cmsms-content-composer.php:1278
+msgid "New Section"
+msgstr ""
+
+#: cmsms-content-composer.php:1279
+msgid "Color Scheme"
+msgstr ""
+
+#: cmsms-content-composer.php:1280
+msgid "Choose a color scheme to be used for section"
+msgstr ""
+
+#: cmsms-content-composer.php:1281
+msgid "Custom Background Color"
+msgstr ""
+
+#: cmsms-content-composer.php:1282
+msgid ""
+"If not checked, section background color will match background color for "
+"this section color scheme"
+msgstr ""
+
+#: cmsms-content-composer.php:1284
+msgid "Choose background color for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1285
+msgid "Background Image"
+msgstr ""
+
+#: cmsms-content-composer.php:1286
+msgid "Choose background image for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1287
+msgid "Background Position"
+msgstr ""
+
+#: cmsms-content-composer.php:1288
+msgid "Select background position for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1289
+msgid "Vertical: top"
+msgstr ""
+
+#: cmsms-content-composer.php:1290
+msgid "Vertical: center"
+msgstr ""
+
+#: cmsms-content-composer.php:1291
+msgid "Vertical: bottom"
+msgstr ""
+
+#: cmsms-content-composer.php:1292
+msgid "Horizontal: left"
+msgstr ""
+
+#: cmsms-content-composer.php:1293
+msgid "Horizontal: center"
+msgstr ""
+
+#: cmsms-content-composer.php:1294
+msgid "Horizontal: right"
+msgstr ""
+
+#: cmsms-content-composer.php:1295
+msgid "Background Repeat"
+msgstr ""
+
+#: cmsms-content-composer.php:1296
+msgid "Choose background repeat for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1297
+msgid "No Repeat"
+msgstr ""
+
+#: cmsms-content-composer.php:1298
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: cmsms-content-composer.php:1299
+msgid "Repeat Vertically"
+msgstr ""
+
+#: cmsms-content-composer.php:1300 cmsms-content-composer.php:1352
+msgid "Repeat"
+msgstr ""
+
+#: cmsms-content-composer.php:1301
+msgid "Background Attachment"
+msgstr ""
+
+#: cmsms-content-composer.php:1302
+msgid "Choose background attachment for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1303
+msgid "Scroll"
+msgstr ""
+
+#: cmsms-content-composer.php:1305
+msgid "Background Size"
+msgstr ""
+
+#: cmsms-content-composer.php:1306
+msgid "Choose background size for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1307
+msgid "image is added in its actual size regardless of the section dimensions"
+msgstr ""
+
+#: cmsms-content-composer.php:1308
+msgid "image is resized to cover the whole section area"
+msgstr ""
+
+#: cmsms-content-composer.php:1309
+msgid "image is resized to fit into the section area"
+msgstr ""
+
+#: cmsms-content-composer.php:1311
+msgid "Cover"
+msgstr ""
+
+#: cmsms-content-composer.php:1312
+msgid "Contain"
+msgstr ""
+
+#: cmsms-content-composer.php:1313
+msgid "Background Parallax"
+msgstr ""
+
+#: cmsms-content-composer.php:1314
+msgid "If checked, background image parallax effect will be enabled"
+msgstr ""
+
+#: cmsms-content-composer.php:1315
+msgid "Background Parallax Ratio"
+msgstr ""
+
+#: cmsms-content-composer.php:1316
+msgid "Background image reposition step on scroll"
+msgstr ""
+
+#: cmsms-content-composer.php:1317
+msgid "Color Overlay Visibility"
+msgstr ""
+
+#: cmsms-content-composer.php:1318
+msgid ""
+"If checked, section color overlay will be shown over the section background"
+msgstr ""
+
+#: cmsms-content-composer.php:1319
+msgid "Color Overlay"
+msgstr ""
+
+#: cmsms-content-composer.php:1320
+msgid "Choose color overlay for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1321
+msgid "Overlay Opacity"
+msgstr ""
+
+#: cmsms-content-composer.php:1322
+msgid "Choose color overlay opacity for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1323
+msgid "percentage"
+msgstr ""
+
+#: cmsms-content-composer.php:1324
+msgid "Top Padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1325
+msgid "Enter section top padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1326
+msgid "Bottom Padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1327
+msgid "Enter section bottom padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1328
+msgid "Content Width"
+msgstr ""
+
+#: cmsms-content-composer.php:1329
+msgid "Choose content width type for this section"
+msgstr ""
+
+#: cmsms-content-composer.php:1330
+msgid "Boxed"
+msgstr ""
+
+#: cmsms-content-composer.php:1332
+msgid "Left Custom Padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1333
+msgid "Enter section left padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1334
+msgid "Right Custom Padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1335
+msgid "Enter section right padding"
+msgstr ""
+
+#: cmsms-content-composer.php:1336
+msgid "Merge with the Next Section"
+msgstr ""
+
+#: cmsms-content-composer.php:1337
+msgid ""
+"If enabled, values for all the settings that are located below, will be "
+"imported from the following section. In this case there is NO NEED to apply "
+"settings for this section, they will not take effect."
+msgstr ""
+
+#: cmsms-content-composer.php:1338
+msgid ""
+"Please make sure to enable this ONLY if both are true: <br />1. Another "
+"section is present below current section. <br />2. This option is disabled "
+"for the section below."
+msgstr ""
+
+#: cmsms-content-composer.php:1339
+msgid "Section ID"
+msgstr ""
+
+#: cmsms-content-composer.php:1340
+msgid ""
+"Apply a custom 'id' attribute to the section, so that you could apply a "
+"unique style via CSS. This option is also helpful if you want to use anchor "
+"links (build one-page navigation) to scroll to this section when a link is "
+"clicked."
+msgstr ""
+
+#: cmsms-content-composer.php:1341
+msgid ""
+"Use this option with caution and make sure: <br />1. That you use only "
+"allowed characters (a-z). No special characters can be used. <br />2. Please "
+"don't use the following id values: page, main, header, middle, bottom, "
+"footer."
+msgstr ""
+
+#: cmsms-content-composer.php:1342
+msgid ""
+"You can add additional CSS classes (separated by spaces) to the section, if "
+"you wish to style content elements differently"
+msgstr ""
+
+#: cmsms-content-composer.php:1353 inc/widgets.php:665 inc/widgets.php:827
+msgid "Preload"
+msgstr ""
+
+#: cmsms-content-composer.php:1355
+msgid "This option works only if button is visible."
+msgstr ""
+
+#: cmsms-content-composer.php:1364
+msgid "Remove Section"
+msgstr ""
+
+#: cmsms-content-composer.php:1365
+msgid "Clone Section"
+msgstr ""
+
+#: cmsms-content-composer.php:1366
+msgid "Edit Section"
+msgstr ""
+
+#: cmsms-content-composer.php:1367
+msgid "Edit Column"
+msgstr ""
+
+#: cmsms-content-composer.php:1368
+msgid "Add Shortcode"
+msgstr ""
+
+#: cmsms-content-composer.php:1369
+msgid "Remove Shortcode"
+msgstr ""
+
+#: cmsms-content-composer.php:1370
+msgid "Clone Shortcode"
+msgstr ""
+
+#: cmsms-content-composer.php:1371
+msgid "Edit Shortcode"
+msgstr ""
+
+#: cmsms-content-composer.php:1372
+msgid ""
+"Do you really want delete all content?\n"
+"All data will be lost!"
+msgstr ""
+
+#: cmsms-content-composer.php:1373
+msgid ""
+"Do you really want delete this element?\n"
+"All data from this element will be lost!"
+msgstr ""
+
+#: cmsms-content-composer.php:1374
+msgid ""
+"Do you really want delete this template?\n"
+"All data from this template will be lost!"
+msgstr ""
+
+#: cmsms-content-composer.php:1375
+msgid ""
+"Error! Enter valid template name. Minimum 3 character.\n"
+"Allowed characters: letters, numbers, whitespace"
+msgstr ""
+
+#: cmsms-content-composer.php:1376
+msgid "Enter the name for new template"
+msgstr ""
+
+#: cmsms-content-composer.php:1377
+msgid ""
+"Error on page!\n"
+"Please reload page and try again"
+msgstr ""
+
+#: cmsms-content-composer.php:1384
+msgid "Cancel"
+msgstr ""
+
+#: cmsms-content-composer.php:1385 cmsms-content-composer.php:1528
+msgid "Update"
+msgstr ""
+
+#: cmsms-content-composer.php:1386
+msgid "Remove"
+msgstr ""
+
+#: cmsms-content-composer.php:1387
+msgid "Deselect"
+msgstr ""
+
+#: cmsms-content-composer.php:1388
+msgid "Add Media"
+msgstr ""
+
+#: cmsms-content-composer.php:1389
+msgid "Shortcode Settings"
+msgstr ""
+
+#: cmsms-content-composer.php:1390
+msgid "Choose Shortcode"
+msgstr ""
+
+#: cmsms-content-composer.php:1391
+msgid "Choose Image"
+msgstr ""
+
+#: cmsms-content-composer.php:1392
+msgid "Choose Video"
+msgstr ""
+
+#: cmsms-content-composer.php:1393
+msgid "Choose Audio"
+msgstr ""
+
+#: cmsms-content-composer.php:1394
+msgid "Insert Image"
+msgstr ""
+
+#: cmsms-content-composer.php:1395
+msgid "Insert Video"
+msgstr ""
+
+#: cmsms-content-composer.php:1396
+msgid "Insert Audio"
+msgstr ""
+
+#: cmsms-content-composer.php:1397
+msgid "Create Gallery"
+msgstr ""
+
+#: cmsms-content-composer.php:1398
+msgid "Edit Gallery"
+msgstr ""
+
+#: cmsms-content-composer.php:1399
+msgid "Create/Edit Gallery"
+msgstr ""
+
+#: cmsms-content-composer.php:1400
+msgid "Insert Gallery"
+msgstr ""
+
+#: cmsms-content-composer.php:1401
+msgid "Choose icon"
+msgstr ""
+
+#: cmsms-content-composer.php:1402
+msgid "Add Table Column"
+msgstr ""
+
+#: cmsms-content-composer.php:1403
+msgid "Add Table Row"
+msgstr ""
+
+#: cmsms-content-composer.php:1404
+msgid "Text Align Left"
+msgstr ""
+
+#: cmsms-content-composer.php:1405
+msgid "Text Align Right"
+msgstr ""
+
+#: cmsms-content-composer.php:1406
+msgid "Text Align Center"
+msgstr ""
+
+#: cmsms-content-composer.php:1407
+msgid "Default Row"
+msgstr ""
+
+#: cmsms-content-composer.php:1408
+msgid "Header Row"
+msgstr ""
+
+#: cmsms-content-composer.php:1409
+msgid "Footer Row"
+msgstr ""
+
+#: cmsms-content-composer.php:1410
+msgid "Delete Row"
+msgstr ""
+
+#: cmsms-content-composer.php:1411
+msgid "Delete Column"
+msgstr ""
+
+#: cmsms-content-composer.php:1412
+msgid "opacity"
+msgstr ""
+
+#: cmsms-content-composer.php:1413
+msgid ""
+"Error on page!\n"
+"Reload page and try again."
+msgstr ""
+
+#: cmsms-content-composer.php:1483
+msgid "Default Editor"
+msgstr ""
+
+#: cmsms-content-composer.php:1483 gutenberg/gutenberg.php:90
+#: gutenberg/gutenberg.php:100
+msgid "Content Composer"
+msgstr ""
+
+#: cmsms-content-composer.php:1493 gutenberg/gutenberg.php:88
+msgid "&#8592; Back to Block Editor"
+msgstr ""
+
+#: cmsms-content-composer.php:1525
+msgid "Expand Content Composer"
+msgstr ""
+
+#: cmsms-content-composer.php:1526
+msgid "Clear Composer Content"
+msgstr ""
+
+#: cmsms-content-composer.php:1527
+msgid "Preview Changes"
+msgstr ""
+
+#: cmsms-content-composer.php:1531
+msgid "Add elements to the top"
+msgstr ""
+
+#: cmsms-content-composer.php:1535
+msgid "Don't confirm element deleting!"
+msgstr ""
+
+#: cmsms-content-composer.php:1538
+msgid "Templates"
+msgstr ""
+
+#: cmsms-content-composer.php:1541
+msgid "Save All as Template"
+msgstr ""
+
+#: cmsms-content-composer.php:1542
+msgid "Choose Template:"
+msgstr ""
+
+#: cmsms-content-composer.php:1549
+#: framework/inc/cmsms-composer-templates-operator.php:49
+msgid "Load Selected Template"
+msgstr ""
+
+#: cmsms-content-composer.php:1550
+#: framework/inc/cmsms-composer-templates-operator.php:50
+msgid "Delete Selected Template"
+msgstr ""
+
+#: cmsms-content-composer.php:1558
+msgid "Add New Template"
+msgstr ""
+
+#: cmsms-content-composer.php:1566
+msgid "All content was saved as template successfully."
+msgstr ""
+
+#: cmsms-content-composer.php:1569
+msgid "Selected sections was saved as template successfully."
+msgstr ""
+
+#: cmsms-content-composer.php:1572
+msgid "Template was loaded to composer successfully."
+msgstr ""
+
+#: cmsms-content-composer.php:1575
+msgid "Template was deleted successfully."
+msgstr ""
+
+#: cmsms-content-composer.php:1591
+msgid "Visual Content Composer"
+msgstr ""
+
+#: framework/cmsms-composer-lightbox-functions.php:204
+msgid "Unnamed"
+msgstr ""
+
+#: framework/cmsms-composer-lightbox-functions.php:476
+#: inc/project/projects-post-type.php:130
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/cmsms-composer-lightbox-functions.php:478
+msgid "Medium"
+msgstr ""
+
+#: framework/cmsms-composer-lightbox-functions.php:480
+msgid "Large"
+msgstr ""
+
+#: framework/cmsms-composer-lightbox-functions.php:489
+msgid "Full Size"
+msgstr ""
+
+#: framework/cmsms-composer-lightbox-functions.php:489
+msgid "Original image size"
+msgstr ""
+
+#: framework/cmsms-composer-templates-post-type.php:16
+msgid "Content Templates"
+msgstr ""
+
+#: framework/cmsms-composer-templates-post-type.php:17
+msgid "Content Template"
+msgstr ""
+
+#: framework/cmsms-editor-plugin-register.php:24
+msgid "CMSMasters Shortcodes"
+msgstr ""
+
+#: framework/inc/cmsms-composer-templates-operator.php:27
+msgid "You must be logged in to access this script."
+msgstr ""
+
+#: framework/inc/editor-additions.php:32
+msgid "Paragraph"
+msgstr ""
+
+#: framework/inc/editor-additions.php:33
+msgid "Div"
+msgstr ""
+
+#: framework/inc/editor-additions.php:34
+msgid "Header 1"
+msgstr ""
+
+#: framework/inc/editor-additions.php:35
+msgid "Header 2"
+msgstr ""
+
+#: framework/inc/editor-additions.php:36
+msgid "Header 3"
+msgstr ""
+
+#: framework/inc/editor-additions.php:37
+msgid "Header 4"
+msgstr ""
+
+#: framework/inc/editor-additions.php:38
+msgid "Header 5"
+msgstr ""
+
+#: framework/inc/editor-additions.php:39
+msgid "Header 6"
+msgstr ""
+
+#: framework/inc/editor-additions.php:41
+msgid "Pre"
+msgstr ""
+
+#: framework/inc/editor-additions.php:42
+msgid "Superscript"
+msgstr ""
+
+#: framework/inc/editor-additions.php:43
+msgid "Subscript"
+msgstr ""
+
+#: framework/inc/editor-additions.php:44
+msgid "Code"
+msgstr ""
+
+#: gutenberg/gutenberg.php:73
+msgid "Temporary title"
+msgstr ""
+
+#: gutenberg/gutenberg.php:104
+msgid "Loading..."
+msgstr ""
+
+#: inc/like/likes-post-type.php:17
+msgid "Like"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:26
+msgid "All Profiles"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:27 inc/project/projects-post-type.php:27
+msgid "Add New"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:28
+msgid "Add New Profile"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:29
+msgid "Edit Profile"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:30
+msgid "New Profile"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:31
+msgid "View Profile"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:32
+msgid "Search Profiles"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:33
+msgid "No Profiles found"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:34
+msgid "No Profiles found in Trash"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:76
+msgid "Profile Categories"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:77
+msgid "Profile Category"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:109
+msgid "Avatar"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:141
+msgid "No Avatar"
+msgstr ""
+
+#: inc/profile/profiles-post-type.php:160
+#: inc/project/projects-post-type.php:183
+msgid "Uncategorized"
+msgstr ""
+
+#: inc/project/projects-post-type.php:23 inc/project/projects-post-type.php:25
+msgid "Projects"
+msgstr ""
+
+#: inc/project/projects-post-type.php:24
+msgid "Project"
+msgstr ""
+
+#: inc/project/projects-post-type.php:26
+msgid "All Projects"
+msgstr ""
+
+#: inc/project/projects-post-type.php:28
+msgid "Add New Project"
+msgstr ""
+
+#: inc/project/projects-post-type.php:29
+msgid "Edit Project"
+msgstr ""
+
+#: inc/project/projects-post-type.php:30
+msgid "New Project"
+msgstr ""
+
+#: inc/project/projects-post-type.php:31
+msgid "View Project"
+msgstr ""
+
+#: inc/project/projects-post-type.php:32
+msgid "Search Projects"
+msgstr ""
+
+#: inc/project/projects-post-type.php:33
+msgid "No projects found"
+msgstr ""
+
+#: inc/project/projects-post-type.php:34
+msgid "No projects found in Trash"
+msgstr ""
+
+#: inc/project/projects-post-type.php:78
+msgid "Project Categories"
+msgstr ""
+
+#: inc/project/projects-post-type.php:79
+msgid "Project Category"
+msgstr ""
+
+#: inc/project/projects-post-type.php:98
+msgid "Project Tags"
+msgstr ""
+
+#: inc/project/projects-post-type.php:99
+msgid "Project Tag"
+msgstr ""
+
+#: inc/project/projects-post-type.php:164
+msgid "No Thumbnail"
+msgstr ""
+
+#: inc/project/projects-post-type.php:202
+msgid "No Tags"
+msgstr ""
+
+#: inc/shortcodes.php:748
+msgid "All"
+msgstr ""
+
+#: inc/shortcodes.php:2544
+msgid "Enter quote text here"
+msgstr ""
+
+#: inc/shortcodes.php:3012
+#, php-format
+msgid "Check out '%s' on %s website"
+msgstr ""
+
+#: inc/shortcodes.php:3012
+msgid "Twitter"
+msgstr ""
+
+#: inc/shortcodes.php:3018
+msgid "Pinterest"
+msgstr ""
+
+#: inc/shortcodes.php:3024 inc/widgets.php:401 inc/widgets.php:407
+msgid "Facebook"
+msgstr ""
+
+#: inc/shortcodes.php:3254
+msgid "ago"
+msgstr ""
+
+#: inc/shortcodes.php:3261
+msgid "Please add your Twitter API keys"
+msgstr ""
+
+#: inc/shortcodes.php:3261
+msgid "read more how"
+msgstr ""
+
+#: inc/shortcodes.php:3465
+msgid "Load More Posts"
+msgstr ""
+
+#: inc/shortcodes.php:3471 inc/shortcodes.php:3741
+msgid "All Categories"
+msgstr ""
+
+#: inc/shortcodes.php:3737
+msgid "Load More Projects"
+msgstr ""
+
+#: inc/widgets.php:20
+msgid "Your advertisement"
+msgstr ""
+
+#: inc/widgets.php:27 inc/widgets.php:33
+msgid "Advertisement"
+msgstr ""
+
+#: inc/widgets.php:221
+msgid "Divider for widgets rows"
+msgstr ""
+
+#: inc/widgets.php:266
+msgid "Show Divider Line"
+msgstr ""
+
+#: inc/widgets.php:290
+msgid "Video from youtube, vimeo or dailymotion"
+msgstr ""
+
+#: inc/widgets.php:293 inc/widgets.php:302
+msgid "Embedded Widget"
+msgstr ""
+
+#: inc/widgets.php:367
+msgid "Embed URL"
+msgstr ""
+
+#: inc/widgets.php:383
+msgid ""
+"If checked, ignore default video height/max-height and set a 16:9 proportion "
+"instead"
+msgstr ""
+
+#: inc/widgets.php:398
+msgid "Your Facebook like box"
+msgstr ""
+
+#: inc/widgets.php:449
+msgid "Facebook Page URL"
+msgstr ""
+
+#: inc/widgets.php:466
+msgid "Your Flickr account latest images"
+msgstr ""
+
+#: inc/widgets.php:469 inc/widgets.php:475
+msgid "Flickr"
+msgstr ""
+
+#: inc/widgets.php:498
+msgid "More flickr images"
+msgstr ""
+
+#: inc/widgets.php:527
+msgid "Flickr ID"
+msgstr ""
+
+#: inc/widgets.php:532
+msgid "Enter the number of latest flickr images you'd like to display"
+msgstr ""
+
+#: inc/widgets.php:534
+msgid "default is"
+msgstr ""
+
+#: inc/widgets.php:550
+msgid "Your HTML5 Audio"
+msgstr ""
+
+#: inc/widgets.php:557 inc/widgets.php:563
+msgid "HTML5 Audio"
+msgstr ""
+
+#: inc/widgets.php:650 inc/widgets.php:655 inc/widgets.php:660
+msgid "File Format URL"
+msgstr ""
+
+#: inc/widgets.php:667 inc/widgets.php:829
+msgid "Not Preload"
+msgstr ""
+
+#: inc/widgets.php:668 inc/widgets.php:830
+msgid "Preload Auto"
+msgstr ""
+
+#: inc/widgets.php:669 inc/widgets.php:831
+msgid "Preload as Metadata"
+msgstr ""
+
+#: inc/widgets.php:675 inc/widgets.php:837
+msgid "Enable Autoplay"
+msgstr ""
+
+#: inc/widgets.php:679 inc/widgets.php:841
+msgid "Enable Repeat"
+msgstr ""
+
+#: inc/widgets.php:694
+msgid "Your HTML5 Video"
+msgstr ""
+
+#: inc/widgets.php:701 inc/widgets.php:707
+msgid "HTML5 Video"
+msgstr ""
+
+#: inc/widgets.php:712 inc/widgets.php:793
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: inc/widgets.php:807 inc/widgets.php:812 inc/widgets.php:817
+msgid "File Format Source"
+msgstr ""
+
+#: inc/widgets.php:822
+msgid "Poster URL"
+msgstr ""
+
+#: inc/widgets.php:857
+msgid "PayPal Donation Button"
+msgstr ""
+
+#: inc/widgets.php:910
+msgid "Donate"
+msgstr ""
+
+#: inc/widgets.php:939
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:944
+msgid "Text:"
+msgstr ""
+
+#: inc/widgets.php:949
+msgid "Purpose:"
+msgstr ""
+
+#: inc/widgets.php:954
+msgid "Reference:"
+msgstr ""
+
+#: inc/widgets.php:959
+msgid "Amount:"
+msgstr ""
+
+#: inc/widgets.php:964
+msgid "Button Text:"
+msgstr ""

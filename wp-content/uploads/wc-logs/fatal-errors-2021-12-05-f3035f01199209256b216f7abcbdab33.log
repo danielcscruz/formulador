@@ -1,0 +1,20 @@
+2021-12-05T00:17:12+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_enqueue_google_font() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/shortcodes/iconbox.php:162
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/init.php(83): include()
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/shortcodes.php(356): {closure}(Array, '<p>Lorem ipsum ...', 'iconbox')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(divide...', 'do_shortcode_ta...', '[headings align...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[headings align...')
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_inner.php(51): wpb_js_remove_wpautop('[headings align...')
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/js_composer/include/classes/shortco, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/shortcodes/iconbox.php, na linha 162
+
+2021-12-05T00:17:19+00:00 CRITICAL Uncaught Error: Call to undefined function agrikole_enqueue_google_font() in /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/shortcodes/iconbox.php:162
+Stack trace:
+#0 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/init.php(83): include()
+#1 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/shortcodes.php(356): {closure}(Array, '<p>Lorem ipsum ...', 'iconbox')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/danielcruz/Desktop/fertifor-wp/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(divide...', 'do_shortcode_ta...', '[headings align...')
+#4 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[headings align...')
+#5 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_inner.php(51): wpb_js_remove_wpautop('[headings align...')
+#6 /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/js_composer/include/classes/shortco, em /Users/danielcruz/Desktop/fertifor-wp/wp-content/plugins/wprt-addons/shortcodes/iconbox.php, na linha 162
+

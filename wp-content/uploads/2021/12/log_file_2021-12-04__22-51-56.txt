@@ -1,0 +1,45 @@
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://localhost:8888
+Data file = /Users/danielcruz/Desktop/fertifor-wp/wp-content/uploads/2021/12/econatureonepagedemo.WordPress.2021-10-21.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "eco_poster" (Mídia)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
