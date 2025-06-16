@@ -5,14 +5,14 @@
         <b-card no-body class="auth-card">
           <b-card-body class="px-3 py-5">
             <LogoBox customClass="mx-auto mb-4 text-center auth-logo" :smLogoHeight="30" :logoHeight="24" smLogoClass="me-1" />
-            <h2 class="fw-bold text-center fs-18">Sign In</h2>
-            <p class="text-muted text-center mt-1 mb-4">Enter your email address and password to access admin panel.</p>
+            <h2 class="fw-bold text-center fs-18">Entrar</h2>
+            <p class="text-muted text-center mt-1 mb-4">Informe o seu e-mail e senha para acessar o painel</p>
 
             <div class="px-4">
               <b-form @submit.prevent="handleSignIn" class="authentication-form">
                 <div v-if="error.length > 0" class="mb-2 text-danger">{{ error }}</div>
                 <b-form-group label="Email" class="mb-3">
-                  <b-form-input type="email" id="example-email" name="example-email" placeholder="Enter your Email"
+                  <b-form-input type="email" id="example-email" name="example-email" placeholder="Digite o seu email"
                     v-model="v.email.$model" />
                   <div v-if="v.email.$error" class="text-danger">
                     <span v-for="(err, idx) in v.email.$errors" :key="idx">
@@ -22,9 +22,9 @@
                 </b-form-group>
                 <div class="mb-3">
                   <router-link :to="{ name: 'auth.reset-password' }"
-                    class="float-end text-muted text-unline-dashed ms-1">Reset password</router-link>
-                  <label class="form-label" for="example-password">Password</label>
-                  <input type="password" id="example-password" class="form-control" placeholder="Enter your password"
+                    class="float-end text-muted text-unline-dashed ms-1">Esqueci a senha</router-link>
+                  <label class="form-label" for="example-password">Senha</label>
+                  <input type="password" id="example-password" class="form-control" placeholder="Digite a sua senha"
                     v-model="v.password.$model">
                   <div v-if="v.password.$errors" class="text-danger">
                     <span v-for="(err, idx) in v.password.$errors" :key="idx">
@@ -34,16 +34,16 @@
                 </div>
                 <div class="mb-3">
                   <b-form-checkbox id="checkbox-signin">
-                    Remember me
+                    Salvar credenciais
                   </b-form-checkbox>
                 </div>
 
                 <div class="mb-1 text-center d-grid">
-                  <b-button variant="primary" type="submit">Sign In</b-button>
+                  <b-button variant="primary" type="submit">Entrar</b-button>
                 </div>
               </b-form>
 
-              <p class="mt-3 fw-semibold no-span">OR sign with</p>
+              <p class="mt-3 fw-semibold no-span">OU Entre com</p>
 
               <div class="text-center">
                 <a href="javascript:void(0);" class="btn btn-light shadow-none"><i
@@ -55,8 +55,8 @@
             </div>
           </b-card-body>
         </b-card>
-        <p class="mb-0 text-center">New here? <router-link :to="{ name: 'auth.sign-up' }"
-            class="text-reset fw-bold ms-1">Sign Up</router-link></p>
+        <p class="mb-0 text-center">Novo aqui? <router-link :to="{ name: 'auth.sign-up' }"
+            class="text-reset fw-bold ms-1">Registrar</router-link></p>
       </b-col>
     </b-row>
   </AuthLayout>

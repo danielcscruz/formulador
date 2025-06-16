@@ -5,31 +5,31 @@
         <b-card no-body class="auth-card">
           <b-card-body class="px-3 py-5">
             <LogoBox customClass="mx-auto mb-4 text-center auth-logo" :smLogoHeight="30" :logoHeight="24" smLogoClass="me-1" />
-            <h2 class="fw-bold text-center fs-18">Sign Up</h2>
-            <p class="text-muted text-center mt-1 mb-4">New to our platform? Sign up now! It only takes a minute.</p>
+            <h2 class="fw-bold text-center fs-18">Registrar</h2>
+            <p class="text-muted text-center mt-1 mb-4">Novo aqui? Registre agora!</p>
             <div class="px-4">
               <b-form action="/" class="authentication-form">
                 <b-form-group label="Name" class="mb-3">
-                  <b-form-input type="text" id="example-name" placeholder="Enter your name" />
+                  <b-form-input type="text" id="example-name" placeholder="Digite o seu nome" />
                 </b-form-group>
 
                 <b-form-group label="Email" class="mb-3">
-                  <b-form-input type="email" id="example-email" placeholder="Enter your email" />
+                  <b-form-input type="email" id="example-email" placeholder="Digite o seu email" />
                 </b-form-group>
 
                 <b-form-group label="Password" class="mb-3">
                   <b-form-input type="password" id="example-password" name="password"
-                    placeholder="Enter your password" />
+                    placeholder="Informe uma senha" />
                 </b-form-group>
                 <div class="mb-3">
-                  <b-form-checkbox>I accept Terms and Condition</b-form-checkbox>
+                  <b-form-checkbox>Eu aceito os Termos e Condições</b-form-checkbox>
                 </div>
 
                 <div class="mb-1 text-center d-grid">
-                  <b-button variant="primary" type="submit">Sign Up</b-button>
+                  <b-button variant="primary" type="submit">Registrar</b-button>
                 </div>
               </b-form>
-              <p class="mt-3 fw-semibold no-span">OR sign with</p>
+              <p class="mt-3 fw-semibold no-span">OU Registre com</p>
 
               <div class="text-center">
                 <a href="javascript:void(0);" class="btn btn-light shadow-none"><i
@@ -42,8 +42,8 @@
           </b-card-body>
         </b-card>
 
-        <p class="mb-0 text-center">I already have an account
-          <router-link :to="{ name: 'auth.sign-in' }" class="text-reset fw-bold ms-1">Sign In</router-link>
+        <p class="mb-0 text-center">Eu já tenho uma conta
+          <router-link :to="{ name: 'auth.sign-in' }" class="text-reset fw-bold ms-1">Entrar</router-link>
         </p>
       </b-col>
     </b-row>
