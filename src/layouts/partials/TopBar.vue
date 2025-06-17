@@ -30,31 +30,41 @@
               <Icon icon="solar:quit-full-screen-broken" class="fs-24 align-middle quit-fullscreen" />
             </button>
           </div>
+          <div>
+          </div>
 
           <!-- User -->
           <DropDown class="topbar-item">
             <a type="button" class="topbar-button" id="page-header-user-dropdown" data-bs-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               <span class="d-flex align-items-center">
-                <img class="rounded-circle" width="32" :src="avatar1" alt="avatar-1">
+                <!-- <img class="rounded-circle" width="32" :src="avatar1" alt="avatar-1"> -->
+                <img :src="avatarUrl" alt="Avatar" width="32" height="32" />
               </span>
             </a>
             <div class="dropdown-menu dropdown-menu-end">
-              <h6 class="dropdown-header">Bem vindo, Gaston!</h6>
 
-              <router-link class="dropdown-item" :to="{ name: item.route?.name }"
+              <h6 v-if="authStore.isAuthenticated" class="dropdown-header">Bem vindo, {{ authStore.user?.first_name}}</h6>
+              <h6 v-else class="dropdown-header">Bem vindo! Faça o login</h6>
+
+              <!-- <router-link class="dropdown-item" :to="{ name: item.route?.name }"
                 v-for="(item, idx) in profileMenuItems" :key="idx">
                 <i :class="`bx ${item.icon} text-muted fs-18 align-middle me-1`"></i><span class="align-middle">{{
                   item.label }}</span>
-              </router-link>
+              </router-link> -->
 
               <div class="dropdown-divider my-1"></div>
 
-              <router-link class="dropdown-item text-danger" :to="{ name: 'auth.sign-in' }">
-                <i class="bx bx-log-out fs-18 align-middle me-1"></i><span class="align-middle">Logout</span>
+              <router-link v-if="authStore.isAuthenticated" class="dropdown-item text-danger" :to="{ name: 'auth.sign-in' }">
+                <i class="bx bx-log-out fs-18 align-middle me-1"></i><span class="align-middle">Sair</span>
+              </router-link>
+              <router-link v-else class="dropdown-item text-success" :to="{ name: 'auth.sign-in' }">
+                <i class="bx bx-log-in fs-18 align-middle me-1"></i><span class="align-middle">Entrar</span>
               </router-link>
             </div>
           </DropDown>
+
+
         </div>
       </div>
     </b-container>
@@ -72,6 +82,15 @@ import { profileMenuItems, notifications } from "@/layouts/partials/data";
 
 import DropDown from "@/components/DropDown.vue";
 import avatar1 from "@/assets/images/users/avatar-1.jpg";
+
+import { useAuthStore } from '@/stores/auth';
+import { generateAvatarSVG } from '@/utils/generateAvatarSVG'
+
+
+const authStore = useAuthStore()
+const svg = generateAvatarSVG(authStore.user?.first_name, authStore.user?.last_name) || ""
+
+const avatarUrl = `data:image/svg+xml;base64,${btoa(svg)}`
 
 const toggleFullScreen = () => {
   if (!document.fullscreenElement) {

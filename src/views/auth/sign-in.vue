@@ -6,16 +6,23 @@
           <b-card-body class="px-3 py-5">
             <LogoBox customClass="mx-auto mb-4 text-center auth-logo" :smLogoHeight="30" :logoHeight="24" smLogoClass="me-1" />
             <h2 class="fw-bold text-center fs-18">Entrar</h2>
-            <p class="text-muted text-center mt-1 mb-4">Informe o seu e-mail e senha para acessar o painel</p>
+            <span> {{ authStore.isAuthenticated }}</span> 
+            <p class="text-muted text-center mt-1 mb-4">Informe o seu usuário ou e-mail e senha para acessar o painel</p>
 
             <div class="px-4">
               <b-form @submit.prevent="handleSignIn" class="authentication-form">
                 <div v-if="error.length > 0" class="mb-2 text-danger">{{ error }}</div>
-                <b-form-group label="Email" class="mb-3">
-                  <b-form-input type="email" id="example-email" name="example-email" placeholder="Digite o seu email"
-                    v-model="v.email.$model" />
-                  <div v-if="v.email.$error" class="text-danger">
-                    <span v-for="(err, idx) in v.email.$errors" :key="idx">
+                <b-form-group label="login" class="mb-3">
+                  <b-form-input 
+                    type="text" 
+                    id="example-login" 
+                    name="example-login" 
+                    placeholder="Digite o seu usuário ou email"
+                    v-model="v.login.$model" 
+                    :disabled="loading"
+                  />
+                  <div v-if="v.login.$error" class="text-danger">
+                    <span v-for="(err, idx) in v.login.$errors" :key="idx">
                       {{ err.$message }}
                     </span>
                   </div>
@@ -24,8 +31,14 @@
                   <router-link :to="{ name: 'auth.reset-password' }"
                     class="float-end text-muted text-unline-dashed ms-1">Esqueci a senha</router-link>
                   <label class="form-label" for="example-password">Senha</label>
-                  <input type="password" id="example-password" class="form-control" placeholder="Digite a sua senha"
-                    v-model="v.password.$model">
+                  <input 
+                    type="password" 
+                    id="example-password" 
+                    class="form-control" 
+                    placeholder="Digite a sua senha"
+                    v-model="v.password.$model"
+                    :disabled="loading"
+                  >
                   <div v-if="v.password.$errors" class="text-danger">
                     <span v-for="(err, idx) in v.password.$errors" :key="idx">
                       {{ err.$message }}
@@ -33,13 +46,20 @@
                   </div>
                 </div>
                 <div class="mb-3">
-                  <b-form-checkbox id="checkbox-signin">
+                  <b-form-checkbox id="checkbox-signin" v-model="rememberMe">
                     Salvar credenciais
                   </b-form-checkbox>
                 </div>
 
                 <div class="mb-1 text-center d-grid">
-                  <b-button variant="primary" type="submit">Entrar</b-button>
+                  <b-button 
+                    variant="primary" 
+                    type="submit" 
+                    :disabled="loading"
+                  >
+                    <span v-if="loading" class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+                    {{ loading ? 'Entrando...' : 'Entrar' }}
+                  </b-button>
                 </div>
               </b-form>
 
@@ -69,60 +89,77 @@ import { required, email } from '@vuelidate/validators';
 import { useVuelidate } from '@vuelidate/core';
 
 import { ref, reactive, computed } from 'vue';
-import { useRoute } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 
-import HttpClient from '@/helpers/http-client';
+// Importando a store JWT correta
 import { useAuthStore } from '@/stores/auth';
 
-import type { AxiosResponse } from 'axios';
-import type { User } from '@/types/auth';
-import router from '@/router';
-
 const credentials = reactive({
-  email: 'user@email.com',
-  password: 'password'
+  login: '',
+  password: ''
 });
 
 const vuelidateRules = computed(() => ({
-  email: { required, email },
+  login: { required },
   password: { required }
 }));
 
 const v = useVuelidate(vuelidateRules, credentials);
 
-const useAuth = useAuthStore();
+const authStore = useAuthStore();
 const route = useRoute();
+const router = useRouter();
 const query = route.query;
 
 const error = ref('');
-const checked = ref(false);
+const loading = ref(false);
+const rememberMe = ref(false);
 
 const handleSignIn = async () => {
+  // Limpar erro anterior
+  error.value = '';
+  
+  // Validar formulário
   const result = await v.value.$validate();
 
-  if (result) {
-    try {
-      const res: AxiosResponse<User> = await HttpClient.post('/sign-in', credentials);
-      console.log("res", res);
+  if (!result) {
+    return;
+  }
 
-      if (res.data.token) {
-        useAuth.saveSession({
-          ...res.data,
-          token: res.data.token
-        });
-        redirectUser();
-      }
-    } catch (e: any) {
-      if (e.response?.data?.error) {
-        if (error.value.length == 0) error.value = e.response?.data?.error;
-      }
+  loading.value = true;
+
+  try {
+    // Usar o método login da store JWT
+    await authStore.login({
+      login: credentials.login,
+      password: credentials.password
+    });
+
+    // Redirecionar usuário após login bem-sucedido
+    redirectUser();
+  } catch (e: any) {
+    console.error('Erro no login:', e);
+    
+    // Tratar diferentes tipos de erro
+    if (e.response?.data?.detail) {
+      error.value = e.response.data.detail;
+    } else if (e.response?.data?.non_field_errors) {
+      error.value = e.response.data.non_field_errors[0];
+    } else if (e.response?.data?.error) {
+      error.value = e.response.data.error;
+    } else if (e.message) {
+      error.value = e.message;
+    } else {
+      error.value = 'Erro interno do servidor. Tente novamente.';
     }
+  } finally {
+    loading.value = false;
   }
 };
 
 const redirectUser = () => {
-  if (query.redirectedFrom) {
-    return router.push(`${query.redirectedFrom}`);
+  if (query.redirectedFrom && typeof query.redirectedFrom === 'string') {
+    return router.push(query.redirectedFrom);
   }
   return router.push('/');
 };

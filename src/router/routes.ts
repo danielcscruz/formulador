@@ -22,6 +22,14 @@ const stdRoutes = [
         component: () => import('@/views/std/RawMaterial.vue'),
     },
     {
+        path:'/std/stock/',
+        name:'std.stock',
+        meta: {
+            title: setTitle('Estoque')
+        },
+        component: () => import('@/views/std/StockRaw.vue'),
+    },
+    {
         path:'/std/log/',
         name:'std.log',
         meta: {
@@ -35,7 +43,23 @@ const stdRoutes = [
         meta: {
             title: setTitle('Pre-Formulados')
         },
-        component: () => import('@/views/std/Pre.Std.vue'),
+        component: () => import('@/views/std/PreStd.vue'),
+    },
+        {
+        path:'/std/qual/',
+        name:'std.qual',
+        meta: {
+            title: setTitle('Qualidade')
+        },
+        component: () => import('@/views/std/QualityStd.vue'),
+    },
+    {
+        path:'/std/prod/',
+        name:'std.prod',
+        meta: {
+            title: setTitle('Produtividade')
+        },
+        component: () => import('@/views/std/ProductionStd.vue'),
     },
     {
         path:'/std/law/',
@@ -110,7 +134,6 @@ const dashboardRoutes = [
         name: 'dashboards.index',
         meta: {
             title: setTitle('Dashboard'),
-            authRequired: true
         },
         component: () => import('@/views/dashboards/index.vue'),
     }
@@ -122,7 +145,6 @@ const pagesRoutes = [
         name: 'pages.welcome',
         meta: {
             title: setTitle('Welcome'),
-            authRequired: true
         },
         component: () => import('@/views/pages/welcome.vue'),
     },
@@ -131,7 +153,6 @@ const pagesRoutes = [
         name: 'pages.faqs',
         meta: {
             title: setTitle('FAQs'),
-            authRequired: true
         },
         component: () => import('@/views/pages/faqs.vue'),
     },
@@ -140,7 +161,6 @@ const pagesRoutes = [
         name: 'pages.coming-soon',
         meta: {
             title: setTitle('Coming Soon'),
-            authRequired: true
         },
         component: () => import('@/views/pages/coming-soon.vue'),
     },
@@ -149,7 +169,6 @@ const pagesRoutes = [
         name: 'pages.timeline',
         meta: {
             title: setTitle('Timeline'),
-            authRequired: true
         },
         component: () => import('@/views/pages/timeline.vue'),
     },
@@ -158,7 +177,6 @@ const pagesRoutes = [
         name: 'pages.pricing',
         meta: {
             title: setTitle('Pricing'),
-            authRequired: true
         },
         component: () => import('@/views/pages/pricing.vue')
     },
@@ -167,7 +185,6 @@ const pagesRoutes = [
         name: 'pages.maintenance',
         meta: {
             title: setTitle('Maintenance'),
-            authRequired: true
         },
         component: () => import('@/views/pages/maintenance.vue')
     },
@@ -181,7 +198,6 @@ const appsRoutes = [
         name: 'apps.chat',
         meta: {
             title: setTitle('Chat'),
-            authRequired: true
         },
         component: () => import('@/views/apps/chat/index.vue')
     },
@@ -190,7 +206,6 @@ const appsRoutes = [
         name: 'apps.email',
         meta: {
             title: setTitle('Email'),
-            authRequired: true
         },
         component: () => import('@/views/apps/email/index.vue')
     },
@@ -199,7 +214,6 @@ const appsRoutes = [
         name: 'apps.todo',
         meta: {
             title: setTitle('Todo'),
-            authRequired: true
         },
         component: () => import('@/views/apps/todo/index.vue')
     },
@@ -208,7 +222,6 @@ const appsRoutes = [
         name: 'apps.calendar.schedule',
         meta: {
             title: setTitle('Schedule'),
-            authRequired: true
         },
         component: () => import('@/views/apps/calendar/schedule/index.vue')
     },
@@ -217,7 +230,6 @@ const appsRoutes = [
         name: 'apps.calendar.integration',
         meta: {
             title: setTitle('Integration'),
-            authRequired: true
         },
         component: () => import('@/views/apps/calendar/integration/index.vue')
     },
@@ -226,7 +238,6 @@ const appsRoutes = [
         name: 'apps.invoice.list',
         meta: {
             title: setTitle('Invoice List'),
-            authRequired: true
         },
         component: () => import('@/views/apps/invoices/index.vue'),
     },
@@ -236,7 +247,6 @@ const appsRoutes = [
         params: { id: '1001' },
         meta: {
             title: setTitle('Invoice Details'),
-            authRequired: true
         },
         component: () => import('@/views/apps/invoices/[id]/index.vue'),
     },
@@ -245,7 +255,6 @@ const appsRoutes = [
         name: 'widgets',
         meta: {
             title: setTitle('Widgets'),
-            authRequired: true
         },
         component: () => import('@/views/widgets/index.vue'),
     },
@@ -257,7 +266,6 @@ const uiRoutes = [
         name: 'ui.accordions',
         meta: {
             title: setTitle('Accordions'),
-            authRequired: true
         },
         component: () => import('@/views/ui/accordions.vue')
     },
@@ -266,7 +274,6 @@ const uiRoutes = [
         name: 'ui.alerts',
         meta: {
             title: setTitle('Alerts'),
-            authRequired: true
         },
         component: () => import('@/views/ui/alerts.vue')
     },
@@ -275,7 +282,6 @@ const uiRoutes = [
         name: 'ui.avatars',
         meta: {
             title: setTitle('Avatars'),
-            authRequired: true
         },
         component: () => import('@/views/ui/avatars.vue')
     },
@@ -284,7 +290,6 @@ const uiRoutes = [
         name: 'ui.badges',
         meta: {
             title: setTitle('Badges'),
-            authRequired: true
         },
         component: () => import('@/views/ui/badges.vue')
     },
@@ -293,7 +298,6 @@ const uiRoutes = [
         name: 'ui.breadcrumb',
         meta: {
             title: setTitle('Breadcrumb'),
-            authRequired: true
         },
         component: () => import('@/views/ui/breadcrumb.vue')
     },
@@ -302,7 +306,7 @@ const uiRoutes = [
         name: 'ui.buttons',
         meta: {
             title: setTitle('Buttons'),
-            authRequired: true
+ 
         },
         component: () => import('@/views/ui/buttons.vue')
     },
@@ -311,7 +315,6 @@ const uiRoutes = [
         name: 'ui.cards',
         meta: {
             title: setTitle('Cards'),
-            authRequired: true
         },
         component: () => import('@/views/ui/cards.vue')
     },
@@ -320,7 +323,6 @@ const uiRoutes = [
         name: 'ui.carousel',
         meta: {
             title: setTitle('Carousel'),
-            authRequired: true
         },
         component: () => import('@/views/ui/carousel.vue')
     },
@@ -329,7 +331,6 @@ const uiRoutes = [
         name: 'ui.collapse',
         meta: {
             title: setTitle('Collapse'),
-            authRequired: true
         },
         component: () => import('@/views/ui/collapse.vue')
     },
@@ -338,7 +339,6 @@ const uiRoutes = [
         name: 'ui.dropdowns',
         meta: {
             title: setTitle('Dropdowns'),
-            authRequired: true
         },
         component: () => import('@/views/ui/dropdowns.vue')
     },
@@ -347,7 +347,6 @@ const uiRoutes = [
         name: 'ui.list-group',
         meta: {
             title: setTitle('ListGroup'),
-            authRequired: true
         },
         component: () => import('@/views/ui/listGroup.vue')
     },
@@ -356,7 +355,6 @@ const uiRoutes = [
         name: 'ui.modals',
         meta: {
             title: setTitle('Modals'),
-            authRequired: true
         },
         component: () => import('@/views/ui/modals.vue')
     },
@@ -365,7 +363,6 @@ const uiRoutes = [
         name: 'ui.offcanvas',
         meta: {
             title: setTitle('Offcanvas'),
-            authRequired: true
         },
         component: () => import('@/views/ui/offcanvas.vue')
     },
@@ -374,7 +371,6 @@ const uiRoutes = [
         name: 'ui.pagination',
         meta: {
             title: setTitle('Pagination'),
-            authRequired: true
         },
         component: () => import('@/views/ui/pagination.vue')
     },
@@ -383,7 +379,6 @@ const uiRoutes = [
         name: 'ui.placeholders',
         meta: {
             title: setTitle('Placeholders'),
-            authRequired: true
         },
         component: () => import('@/views/ui/placeholders.vue')
     },
@@ -392,7 +387,6 @@ const uiRoutes = [
         name: 'ui.popovers',
         meta: {
             title: setTitle('Popovers'),
-            authRequired: true
         },
         component: () => import('@/views/ui/popovers.vue')
     },
@@ -401,7 +395,6 @@ const uiRoutes = [
         name: 'ui.progress',
         meta: {
             title: setTitle('Progress'),
-            authRequired: true
         },
         component: () => import('@/views/ui/progress.vue')
     },
@@ -410,7 +403,6 @@ const uiRoutes = [
         name: 'ui.scrollspy',
         meta: {
             title: setTitle('Scrollspy'),
-            authRequired: true
         },
         component: () => import('@/views/ui/scrollspy.vue')
     },
@@ -419,7 +411,6 @@ const uiRoutes = [
         name: 'ui.spinners',
         meta: {
             title: setTitle('Spinners'),
-            authRequired: true
         },
         component: () => import('@/views/ui/spinners.vue')
     },
@@ -428,7 +419,6 @@ const uiRoutes = [
         name: 'ui.tabs',
         meta: {
             title: setTitle('Tabs'),
-            authRequired: true
         },
         component: () => import('@/views/ui/tabs.vue')
     },
@@ -437,7 +427,6 @@ const uiRoutes = [
         name: 'ui.toasts',
         meta: {
             title: setTitle('Toasts'),
-            authRequired: true
         },
         component: () => import('@/views/ui/toasts.vue')
     },
@@ -446,7 +435,6 @@ const uiRoutes = [
         name: 'ui.tooltips',
         meta: {
             title: setTitle('Tooltips'),
-            authRequired: true
         },
         component: () => import('@/views/ui/tooltips.vue')
     }
@@ -458,7 +446,6 @@ const advancedUIRoutes = [
         name: 'advanced.ratings',
         meta: {
             title: setTitle('Ratings'),
-            authRequired: true
         },
         component: () => import('@/views/advanced/ratings/index.vue')
     },
@@ -467,7 +454,6 @@ const advancedUIRoutes = [
         name: 'advanced.alert',
         meta: {
             title: setTitle('Sweet Alert'),
-            authRequired: true
         },
         component: () => import('@/views/advanced/alert/index.vue')
     },
@@ -476,7 +462,6 @@ const advancedUIRoutes = [
         name: 'advanced.swiper',
         meta: {
             title: setTitle('Swiper'),
-            authRequired: true
         },
         component: () => import('@/views/advanced/swiper/index.vue')
     },
@@ -485,7 +470,6 @@ const advancedUIRoutes = [
         name: 'advanced.scrollbar',
         meta: {
             title: setTitle('Scrollbar'),
-            authRequired: true
         },
         component: () => import('@/views/advanced/scrollbar/index.vue')
     },
@@ -494,7 +478,6 @@ const advancedUIRoutes = [
         name: 'advanced.toastify',
         meta: {
             title: setTitle('Toastify'),
-            authRequired: true
         },
         component: () => import('@/views/advanced/toastify/index.vue')
     }
@@ -506,7 +489,6 @@ const chartsRoutes = [
         name: 'charts.area',
         meta: {
             title: setTitle('Apex Area Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/area/index.vue')
     },
@@ -515,7 +497,6 @@ const chartsRoutes = [
         name: 'charts.bar',
         meta: {
             title: setTitle('Apex Bar Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/bar/index.vue')
     },
@@ -524,7 +505,6 @@ const chartsRoutes = [
         name: 'charts.boxplot',
         meta: {
             title: setTitle('Apex Boxplot Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/boxplot/index.vue')
     },
@@ -533,7 +513,6 @@ const chartsRoutes = [
         name: 'charts.bubble',
         meta: {
             title: setTitle('Apex Bubble Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/bubble/index.vue')
     },
@@ -542,7 +521,6 @@ const chartsRoutes = [
         name: 'charts.candlestick',
         meta: {
             title: setTitle('Apex Candlestick Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/candlestick/index.vue')
     },
@@ -551,7 +529,6 @@ const chartsRoutes = [
         name: 'charts.column',
         meta: {
             title: setTitle('Apex Column Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/column/index.vue')
     },
@@ -560,7 +537,6 @@ const chartsRoutes = [
         name: 'charts.heatmap',
         meta: {
             title: setTitle('Apex Heatmap Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/heatmap/index.vue')
     },
@@ -569,7 +545,6 @@ const chartsRoutes = [
         name: 'charts.line',
         meta: {
             title: setTitle('Apex Line Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/line/index.vue')
     },
@@ -578,7 +553,6 @@ const chartsRoutes = [
         name: 'charts.mixed',
         meta: {
             title: setTitle('Apex Mixed Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/mixed/index.vue')
     },
@@ -587,7 +561,6 @@ const chartsRoutes = [
         name: 'charts.pie',
         meta: {
             title: setTitle('Apex Pie Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/pie/index.vue')
     },
@@ -596,7 +569,6 @@ const chartsRoutes = [
         name: 'charts.polar',
         meta: {
             title: setTitle('Apex Polar Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/polar/index.vue')
     },
@@ -605,7 +577,6 @@ const chartsRoutes = [
         name: 'charts.radar',
         meta: {
             title: setTitle('Apex Radar Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/radar/index.vue')
     },
@@ -614,7 +585,6 @@ const chartsRoutes = [
         name: 'charts.radial-bar',
         meta: {
             title: setTitle('Apex Radial Bar Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/radial-bar/index.vue')
     },
@@ -623,7 +593,6 @@ const chartsRoutes = [
         name: 'charts.scatter',
         meta: {
             title: setTitle('Apex Scatter Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/scatter/index.vue')
     },
@@ -632,7 +601,6 @@ const chartsRoutes = [
         name: 'charts.timeline',
         meta: {
             title: setTitle('Apex Timeline Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/timeline/index.vue')
     },
@@ -641,7 +609,6 @@ const chartsRoutes = [
         name: 'charts.treemap',
         meta: {
             title: setTitle('Apex Treemap Chart'),
-            authRequired: true
         },
         component: () => import('@/views/charts/treemap/index.vue')
     }
@@ -653,7 +620,6 @@ const formRoutes = [
         name: 'forms.basic',
         meta: {
             title: setTitle('Form Basic'),
-            authRequired: true
         },
         component: () => import('@/views/forms/basic.vue')
     },
@@ -662,7 +628,6 @@ const formRoutes = [
         name: 'forms.checkbox',
         meta: {
             title: setTitle('Form Checkbox'),
-            authRequired: true
         },
         component: () => import('@/views/forms/checkbox.vue')
     },
@@ -671,7 +636,6 @@ const formRoutes = [
         name: 'forms.select',
         meta: {
             title: setTitle('Choice Select'),
-            authRequired: true
         },
         component: () => import('@/views/forms/select.vue')
     },
@@ -680,7 +644,6 @@ const formRoutes = [
         name: 'forms.clipboard',
         meta: {
             title: setTitle('Clipboard'),
-            authRequired: true
         },
         component: () => import('@/views/forms/clipboard.vue')
     },
@@ -689,7 +652,6 @@ const formRoutes = [
         name: 'forms.flat-picker',
         meta: {
             title: setTitle('Flat Picker'),
-            authRequired: true
         },
         component: () => import('@/views/forms/flat-picker.vue')
     },
@@ -698,7 +660,6 @@ const formRoutes = [
         name: 'forms.validation',
         meta: {
             title: setTitle('Validation'),
-            authRequired: true
         },
         component: () => import('@/views/forms/validation/index.vue')
     },
@@ -707,7 +668,6 @@ const formRoutes = [
         name: 'forms.wizard',
         meta: {
             title: setTitle('Wizard'),
-            authRequired: true
         },
         component: () => import('@/views/forms/wizard.vue')
     },
@@ -716,7 +676,6 @@ const formRoutes = [
         name: 'forms.file-uploads',
         meta: {
             title: setTitle('File Uploads'),
-            authRequired: true
         },
         component: () => import('@/views/forms/file-uploads.vue')
     },
@@ -725,7 +684,6 @@ const formRoutes = [
         name: 'forms.editors',
         meta: {
             title: setTitle('Editors'),
-            authRequired: true
         },
         component: () => import('@/views/forms/editors.vue')
     },
@@ -734,7 +692,6 @@ const formRoutes = [
         name: 'forms.input-mask',
         meta: {
             title: setTitle('Input Mask'),
-            authRequired: true
         },
         component: () => import('@/views/forms/input-mask.vue')
     },
@@ -743,7 +700,6 @@ const formRoutes = [
         name: 'forms.slider',
         meta: {
             title: setTitle('Slider'),
-            authRequired: true
         },
         component: () => import('@/views/forms/slider.vue')
     }
@@ -755,7 +711,6 @@ const tablesRoutes = [
         name: 'tables.basic',
         meta: {
             title: setTitle('Tables Basic'),
-            authRequired: true
         },
         component: () => import('@/views/tables/basic.vue')
     },
@@ -764,7 +719,6 @@ const tablesRoutes = [
         name: 'tables.gridjs',
         meta: {
             title: setTitle('Tables Grid Js'),
-            authRequired: true
         },
         component: () => import('@/views/tables/gridjs/index.vue')
     }
@@ -776,7 +730,6 @@ const iconsRoutes = [
         name: 'icons.boxicons',
         meta: {
             title: setTitle('Boxicons Icons'),
-            authRequired: true
         },
         component: () => import('@/views/icons/boxicons.vue')
     },
@@ -785,7 +738,6 @@ const iconsRoutes = [
         name: 'icons.solar',
         meta: {
             title: setTitle('Solar Icons'),
-            authRequired: true
         },
         component: () => import('@/views/icons/solar.vue')
     }
@@ -797,7 +749,6 @@ const mapsRoutes = [
         name: 'maps.google',
         meta: {
             title: setTitle('Google Map'),
-            authRequired: true
         },
         component: () => import('@/views/maps/google.vue')
     },
@@ -806,7 +757,6 @@ const mapsRoutes = [
         name: 'maps.vector',
         meta: {
             title: setTitle('Vector Map'),
-            authRequired: true
         },
         component: () => import('@/views/maps/vector.vue')
     }

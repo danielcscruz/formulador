@@ -1,15 +1,11 @@
 import type { MenuItemType } from '@/types/menu';
 
 export const MENU_ITEMS: MenuItemType[] = [
-    {
-        key: 'menu',
-        label: 'HOME',
-        isTitle: true,
-    },
+
     {
         key: 'dashboard',
         icon: 'solar:home-2-broken',
-        label: 'Dashboard',
+        label: 'Inicio',
 
         route: { name: 'dashboards.index' },
     },
@@ -25,24 +21,65 @@ export const MENU_ITEMS: MenuItemType[] = [
         route: { name: 'std.new' },
 
     },
-        {
+    {
+        key: 'manage',
+        label: 'GESTÃO',
+        isTitle: true,
+    },
+    {
         key: 'raw-material',
         icon: 'solar:widget-broken',
         label: 'Matérias-Primas',
         route: { name: 'std.raw' },
     },
+    {
+        key: 'stock',
+        icon: 'solar:box-minimalistic-broken',
+        label: 'Estoque',
+        route: { name: 'std.stock' },
+    },
         {
         key: 'log',
         icon: 'solar:history-broken',
         label: 'Formulados',
+
         route: { name: 'std.log' },
+
 
     },
     {
         key: 'pre',
         icon: 'solar:copy-broken',
         label: 'Pre-Formulados',
+        disabled: true,
         route: { name: 'std.pre' },
+        badge: {
+            text: '🔒',
+            variant: 'secondary',
+        },
+
+    },
+    {
+        key: 'qual',
+        icon: 'solar:test-tube-minimalistic-broken',
+        label: 'Qualidade',
+        disabled: true,
+        route: { name: 'std.qual' },
+        badge: {
+            text: '🔒',
+            variant: 'secondary',
+        },
+    },
+        {
+        key: 'prod',
+        icon: 'solar:settings-broken',
+        label: 'Produção',
+        disabled: true,
+        route: { name: 'std.prod' },
+        badge: {
+            text: '🔒',
+            variant: 'secondary',
+        },
 
     },
         {

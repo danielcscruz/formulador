@@ -10,6 +10,7 @@ declare module 'vue' {
     AnchorNavigation: typeof import('./src/components/AnchorNavigation.vue')['default']
     ApexChart: typeof import('./src/components/ApexChart.vue')['default']
     AppMenu: typeof import('./src/components/AppMenu/index.vue')['default']
+    AvatarGeneration: typeof import('./src/components/AvatarGeneration.vue')['default']
     BAccordion: typeof import('bootstrap-vue-next')['BAccordion']
     BAccordionItem: typeof import('bootstrap-vue-next')['BAccordionItem']
     BAlert: typeof import('bootstrap-vue-next')['BAlert']

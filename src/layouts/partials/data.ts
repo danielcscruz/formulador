@@ -29,27 +29,9 @@ export const notifications: NotificationType[] = [
 
 export const profileMenuItems: MenuItemType[] = [
   {
-    key: 'message',
-    label: 'Message',
-    icon: 'bx-message-dots',
-    route: { name: 'apps.chat' }
-  },
-  {
-    key: 'pricing',
-    label: 'Pricing',
-    icon: 'bx-wallet',
-    route: { name: 'pages.pricing' }
-  },
-  {
     key: 'help',
     label: 'Help',
     icon: 'bx-help-circle',
     route: { name: 'pages.faqs' }
-  },
-  {
-    key: 'lock-screen',
-    label: 'Lock Screen',
-    icon: 'bx-lock',
-    route: { name: 'auth.lock-screen' }
   }
 ]

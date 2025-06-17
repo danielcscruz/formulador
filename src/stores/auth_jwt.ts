@@ -30,7 +30,7 @@ export const useAuthStore = defineStore('auth_store', () => {
     }
   }
 
-  const login = async (credentials: { email: string; password: string }) => {
+  const login = async (credentials: { login: string; password: string }) => {
     try {
       const response = await api.post('/api/auth/login/', credentials)
       saveSession(response.data.access, response.data.refresh)
