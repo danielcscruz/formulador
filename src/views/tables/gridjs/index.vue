@@ -1,6 +1,7 @@
 <template>
   <VerticalLayout>
       <b-row>
+        
         <b-col xl="10">
           <UIComponentCard id="basic" title="Basic">
             <GridJsTable id="table-gridjs" :options="basicTableOptions"/>

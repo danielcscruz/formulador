@@ -41,6 +41,7 @@ import VerticalLayout from "@/layouts/VerticalLayout.vue"
 import UIComponentCard from "@/components/UIComponentCard.vue"
 import GridJsTable from "@/components/GridJsTable.vue"
 import { rawMaterial, type Nutrient } from "@/assets/data/rawmaterial"
+import { stockItems, type Stock } from "@/assets/data/stock"
 import { useAuthStore } from '@/stores/auth'
 
 const authStore = useAuthStore()
@@ -57,8 +58,10 @@ declare global {
 const nutrients: Nutrient[] = ['N', 'P2O5', 'K2O', 'Ca', 'S', 'Mg', 'Zn', 'B', 'Mn', 'Mo', 'Fe']
 
 // Estados do componente
-const tableData = ref([...rawMaterial])
+// const tableData = ref([...rawMaterial])
+const tableData = ref([...stockItems])
 const originalData = ref([...rawMaterial]) // Backup dos dados originais
+const originalStock = ref([...stockItems])
 const editMode = ref(false)
 const deleteMode = ref(false)
 const tableKey = ref(0)
@@ -75,14 +78,13 @@ const getNextId = () => {
 // Função para adicionar novo item
 const handleAdd = () => {
   const newItem = {
-    code: getNextId(),
-    commercialName: 'Novo Item',
-    chemicalName: 'Nova Fórmula',
-    price: 0,
-    guarantees: nutrients.reduce((acc, nutrient) => {
-      acc[nutrient] = 0
-      return acc
-    }, {} as Record<Nutrient, number>)
+    idRaw: 0,
+    lote: 'Lote',
+    id: 0,
+    name: 0,
+    quantity: 0,
+    last_update: 'DD/MM/YYYY'
+
   }
   
   // Adicionar no início da lista
